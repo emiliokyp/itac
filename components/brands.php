@@ -10,7 +10,7 @@
 						/>
 					</svg>
 				</div>
-
+				
 				<div class="brand smaller">
 					<svg xmlns="http://www.w3.org/2000/svg" height="126.2" width="200px">
 						<g fill="var(--main-color)" class="st0">
