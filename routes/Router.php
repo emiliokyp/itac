@@ -1,5 +1,9 @@
 <?php
 // Grabs the URI and breaks it apart in case we have querystring stuff
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(-1);
+
 $request_uri = explode('?', $_SERVER['REQUEST_URI'], 2);
 
 // Route it up!
