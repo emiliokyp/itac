@@ -16,7 +16,7 @@ switch ($request_uri[0]) {
 	case '/case-studies':
 		require './views/case-studies.view.php';
 		break;
-	case '/pricing':
+	case 'index.php/pricing':
 		require './views/pricing.view.php';
 		break;
 	case '/contact':
