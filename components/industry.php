@@ -2,7 +2,7 @@
 	<section id="industry" class="industry-section">
 		<h1>Our Solutions</h1>
 		<div class="industry-container">
-			<div class="industry">
+			<div data-aos="fade-left" class="industry">
 				<h3>Solutions for accommodation providers</h3>
 				<ul>
 					<li>Diverse experience with many leading reservation systems including Little Hotelier, Airbnb, Hirum, EzyRes, Protel and
@@ -17,7 +17,7 @@
 				<button onclick="window.location.href='/case-studies'" class="learn-more">Learn more</button>
 			</div>
 
-			<div class="industry">
+			<div data-aos="fade-right" class="industry">
 				<h3>Solutions for the retail industry</h3>
 				<ul>
 					<li>Solid experience with a number of industry leading POS platforms including Kounta, Shopify, Unilink, CirclePOS</li>
@@ -32,7 +32,7 @@
 				<button onclick="window.location.href='/case-studies'" class="learn-more">Learn more</button>
 			</div>
 
-		<div class="industry">
+		<div data-aos="fade-left" class="industry">
 			<h3>Solutions for farming and agriculture</h3>
 			<ul>
 				<li>Rural and remote Internet solutions</li>

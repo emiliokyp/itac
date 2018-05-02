@@ -4,9 +4,9 @@
 
 <div class="services-container">
 
-	<div class="service">
+	<div data-aos="fade-up" class="service">
 
-		<div class="service-left network"></div>
+		<div  class="service-left network"></div>
 		<div class="service-right">
 			<h3>Network + Internet</h3>
 			<ul>
@@ -18,9 +18,9 @@
 		</div>
 	</div>
 
-	<div class="service">
+	<div data-aos="fade-up" class="service">
 
-		<div class="service-left workflow"></div>
+		<div  class="service-left workflow"></div>
 		<div class="service-right">
 			<h3>Workflow</h3>
 			<ul>
@@ -36,7 +36,7 @@
 		</div>
 	</div>
 
-	<div class="service">
+	<div data-aos="fade-up" class="service">
 
 		<div class="service-left hardware"></div>
 		<div class="service-right">
@@ -56,7 +56,7 @@
 	</div>
 
 
-	<div class="service">
+	<div data-aos="fade-up"  class="service">
 
 		<div class="service-left code"></div>
 		<div class="service-right">

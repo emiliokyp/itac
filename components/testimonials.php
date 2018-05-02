@@ -3,7 +3,7 @@
 	<div class="title-container">
 		<h1>Our clients</h1>
 	</div>
-	<section class="testimonials owl-carousel">
+	<section data-aos="fade-up" class="testimonials owl-carousel">
 
 		<div class="item testimonial">
 			<div class="testimonial-logo"></div>

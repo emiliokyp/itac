@@ -541,6 +541,10 @@
 	flex-direction: column;
 }
 
+.industry h3 {
+	font-weight: 100;
+}
+
 .industry {
   width: 60%;
   min-width: 400px;
@@ -549,6 +553,7 @@
   margin-bottom: 20px;
   border: 1px solid #f5f5f5;
 	box-shadow: 1px 3px 10px #f5f5f5;
+	font-weight: 100;
 }
 
 .industry li {
@@ -973,6 +978,24 @@
   box-shadow: 1px 3px 10px #f9f9f9;
 }
 
+.case h2 {
+	font-weight: 100;
+	margin-bottom: 20px;
+}
+
+.case ul li {
+	font-weight: 100;
+}
+
+.case ul {
+	line-height: 2;
+	border-bottom: 1px solid #f1f1f1f1;
+	padding-bottom: 20px;
+}
+
+.client {
+
+}
 
 
 
