@@ -41,9 +41,27 @@
 				<li>Cloud-based solutions, productivity and workflow enhancements for farm management</li>
 				<li>Cameras and surveillance systems</li>
 			</ul>
-			<button onclick="window.location.href='/case-studies'" class="learn-more">Learn more</button>
+			<button id="farming-button" class="learn-more">Learn more</button>
 		</div>
 
 		</div>
+
+		<script>
+		
+		function scroll(hash) {
+					document.querySelector(hash).scrollIntoView({
+						behaviour: 'smooth'
+					})
+				}
+
+				document.querySelector('.industry-container').addEventListener('click', e => {
+					if (e.target.id === 'farming-button') {
+						window.location.assign(window.location.href + 'case-studies');
+						scroll('#farming');
+				})
+
+			
+
+		</script>
 
 	</section>

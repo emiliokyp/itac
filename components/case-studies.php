@@ -40,7 +40,7 @@
 		</ul>
 	</div>
 
-	<div data-aos="fade-right" class="case">
+	<div id="farming" data-aos="fade-right" class="case">
 		<h2>Farming and Agriculture</h2>
 		<ul>
 			<li><strong>Client</strong> - has a large livestock and crop growing property</li>
