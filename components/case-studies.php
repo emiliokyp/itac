@@ -1,5 +1,7 @@
-<div>
+<div class="case-studies">
+<h1>Industry Solutions</h1>
 	<div class="case">
+
 		<h2>Accomodation Providers</h2>
 		<ul>
 			<li>The client - has a number of properties throughout Belongil and Byron Bay</li>
@@ -31,6 +33,26 @@
 			The solution - we formed a long term strategic partnership with service level agreement with this business to offer immediate, priority service becoming their one contact for all things tech, assisting them through a franchise change, new business establishment, change of all hardware and inventory management system and much more
 			</li>
 		</ul>
+		<ul>
+			<li>The client - runs a successful, busy offline business and also has a website to compliment the bricks and mortar store</li>
+			<li>The problem - being so busy with he day to day running of the business, the website maintenance and updates get neglected</li>
+			<li>The solution - we handle all website maintenance tasks on behalf of the client through a monthly website management agreement. Website is updated, secure and current whilst the client can get on with the more important aspects of running her business</li>
+		</ul>
+	</div>
+
+	<div class="case">
+		<h2>Farming and Agriculture</h2>
+		<ul>
+			<li>The client - has a large livestock and crop growing property</li>
+			<li>The problem - their main office is located in an Internet black spot, down a gully, yet requires fast, reliable Internet connection for day to day running on the business
+</li>
+<li>The solution - use point-to-point wireless network to transmit a fixed wireless business NBN connection on a structure at a higher point down to the office</li>
+		</ul>
+	<ul>
+		<li>The client - runs a busy agriculture business and owns grazing properties throughout a large geographical region</li>
+		<li>The problem - monitoring livestock and water levels on remote properties requires time, fuel and money to send a worker long distances for a simple task</li>
+		<li>The solution - using solar powered, 4G Internet connected, high-definition time lapse cameras, we allow the farmer to log in to a dashboard and remotely view all his grazing properties direct from his phone or computer in the comfort of the office</li>
+	</ul>
 	</div>
 
 </div>

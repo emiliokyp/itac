@@ -1,7 +1,7 @@
 	<section id="contact" class="contact">
 		<h1>Get in touch</h1>
 		<div class="form-container">
-			<form method="POST" action="scripts/email.php" onsubmit="return recaptcha()" name="contact">
+			<form method="post" action="scripts/email.php" name="contact">
 				<div class="form-group">
 					<label for="name">Your Name</label>
 					<input required="true" type="text" class="form-control" id="name" name="name" placeholder="John Smith">

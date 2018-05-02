@@ -1,12 +1,15 @@
-$(document).on('scroll', function() {
-  if ($(document).scrollTop() > 100) {
+function nav() {
+  if ($(document).scrollTop() > 100 || window.location.pathname != '/') {
     $('#nav').addClass('shrink');
     $('#burger').addClass('black');
   } else {
     $('#nav').removeClass('shrink');
     $('#burger').removeClass('black');
   }
-});
+}
+nav();
+$(document).on('scroll', nav);
+
 $('#burger').on('click', function() {
   $('.drop-down').toggleClass('menu-active');
   $('#burger').toggleClass('close');
@@ -37,6 +40,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
       setTimeout(function() {
         StartTextAnimation(0);
       }, 20000);
+      return;
     }
     if (i < dataText[i].length) {
       typeWriter(dataText[i], 0, function() {
@@ -75,85 +79,3 @@ $(document).ready(function() {
     }
   });
 });
-
-var TxtType = function(el, toRotate, period) {
-  this.toRotate = toRotate;
-  this.el = el;
-  this.loopNum = 0;
-  this.period = parseInt(period, 10) || 2000;
-  this.txt = '';
-  this.tick();
-  this.isDeleting = false;
-};
-
-TxtType.prototype.tick = function() {
-  var i = this.loopNum % this.toRotate.length;
-  var fullTxt = this.toRotate[i];
-
-  if (this.isDeleting) {
-    this.txt = fullTxt.substring(0, this.txt.length - 1);
-  } else {
-    this.txt = fullTxt.substring(0, this.txt.length + 1);
-  }
-
-  this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
-
-  var that = this;
-  var delta = 200 - Math.random() * 100;
-
-  if (this.isDeleting) {
-    delta /= 2;
-  }
-
-  if (!this.isDeleting && this.txt === fullTxt) {
-    delta = this.period;
-    this.isDeleting = true;
-  } else if (this.isDeleting && this.txt === '') {
-    this.isDeleting = false;
-    this.loopNum++;
-    delta = 500;
-  }
-
-  setTimeout(function() {
-    that.tick();
-  }, delta);
-};
-
-window.onload = function() {
-  var elements = document.getElementsByClassName('typewrite');
-  for (var i = 0; i < elements.length; i++) {
-    var toRotate = elements[i].getAttribute('data-type');
-    var period = elements[i].getAttribute('data-period');
-    if (toRotate) {
-      new TxtType(elements[i], JSON.parse(toRotate), period);
-    }
-  }
-  // INJECT CSS
-  var css = document.createElement('style');
-  css.type = 'text/css';
-  css.innerHTML = '.typewrite > .wrap { border-right: 0.05em solid #fff}';
-  document.body.appendChild(css);
-};
-
-// function sendEmail() {
-//   var data = {
-//     name: $('#name').val(),
-//     email: $('#email').val(),
-//     message: $('#additionalinfo').val(),
-//     phone: $('#phone').val()
-//   };
-//   var recaptcha = $('#g-recaptcha-response').val();
-//   if (recaptcha === '') {
-//     event.preventDefault();
-//     alert('Please check the recaptcha');
-//   } else {
-//     $.ajax({
-//       type: 'POST',
-//       url: 'scripts/email.php',
-//       data: data,
-//       success: function() {
-//         $('.success').fadeIn(1000);
-//       }
-//     });
-//   }
-// }

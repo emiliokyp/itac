@@ -12,7 +12,7 @@
 		<p>
 			<i class="far fa-envelope"></i> hello@itac.technology</p>
 		<p>
-			<i class="fas fa-phone"></i> +61 409 793 057</p>
+			<i class="fas fa-phone"></i> 02 6685 6797</p>
 		<p>
 			<i class="fas fa-map-marker"></i> 1/10 Brigantine Street, Byron Bay NSW 2481</p>
 	</div>

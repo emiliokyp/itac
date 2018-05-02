@@ -96,9 +96,11 @@
 	
 
 
+			document.querySelector('#logo').addEventListener('click', () => {
+				window.location.pathname = '/';
+			})
+
 			$('.nav-list').on('click', function(e) {
-
-
 				if (window.location.pathname === '/') {
 					document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   				anchor.addEventListener('click', function(e) {
@@ -109,16 +111,22 @@
 							block: 'start'
 						});
 					});
-				
 				});
 				} else if (e.target.innerHTML === 'HOME') {
 					window.location.pathname = '/';
-				} else if (e.target.innerHTML === 'SOLUTIONS') {
 					window.location.pathname = '/';
-					document.querySelector('#industry').scrollIntoView({
-						behaviour: 'smooth',
-						block: 'start'
-					})
+				} else if (e.target.innerHTML === 'SOLUTIONS') {
+					window.location.pathname = '/case-studies';
+					window.location.hash = '';
+				} else if (e.target.innerHTML === 'SERVICES') {
+					window.location = "/#services";
+					window.location.hash = '';
+				} else if (e.target.innerHTML === 'PRICING') {
+					window.location.pathname = '/pricing';
+					window.location.pathname = '/pricing';
+				} else if (e.target.innerHTML.trim() === 'CONTACT') {
+					window.location.pathname = '/contact';
+					window.location.pathname = '/contact';
 				}
 			})
 		
