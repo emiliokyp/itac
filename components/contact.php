@@ -22,7 +22,6 @@
 				<div class="submit-container">
 					<button type="submit" name="submit" class="submit">Submit</button>
 				</div>
-			
 			</form>
 		</div>
 		<section class="social">

@@ -7,6 +7,7 @@ function nav() {
     $('#burger').removeClass('black');
   }
 }
+
 nav();
 $(document).on('scroll', nav);
 
@@ -19,6 +20,10 @@ $('.drop-down ul').on('click', function() {
   $('.drop-down').removeClass('menu-active');
   $('#burger').removeClass('close');
 });
+
+function lm() {
+  this.hello = 'helo';
+}
 
 document.addEventListener('DOMContentLoaded', function(event) {
   var dataText = ['Problem?', 'Solved. :)', 'Top Notch Tech Support'];
@@ -35,6 +40,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
       setTimeout(fnCallback, 700);
     }
   }
+
   function StartTextAnimation(i) {
     if (typeof dataText[i] == 'undefined') {
       setTimeout(function() {
