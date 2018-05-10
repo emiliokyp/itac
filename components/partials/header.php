@@ -20,7 +20,6 @@
 	 crossorigin="anonymous"></script>
 
 </head>
-
 <body>
 <script>
     AOS.init({

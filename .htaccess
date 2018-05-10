@@ -4,5 +4,3 @@ RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.php [L]
-RewriteRule email.php /index.php?email [NC,L] 
-RewriteRule ^(.*)$ index.php/$1 [L]

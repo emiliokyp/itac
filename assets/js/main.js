@@ -21,10 +21,6 @@ $('.drop-down ul').on('click', function() {
   $('#burger').removeClass('close');
 });
 
-function lm() {
-  this.hello = 'helo';
-}
-
 document.addEventListener('DOMContentLoaded', function(event) {
   var dataText = ['Problem?', 'Solved. :)', 'Top Notch Tech Support'];
 
