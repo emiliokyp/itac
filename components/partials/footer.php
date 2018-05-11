@@ -13,6 +13,7 @@
 	<div class="footer-social">
 		<a href="https://www.facebook.com/itac.technology/">Facebook</a>
 		<a href="https://www.instagram.com/itac.technology/">Instagram</a>
+		<a href="">Twitter</a>
 		<a href="mailto:hello@itac.technology">Email</a>
 		<a href="javascript:;" onclick="window.location.href='/terms-of-service'">Terms of Service</a>
 	</div>
