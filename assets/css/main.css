@@ -914,6 +914,11 @@
   background-color: #333;
 }
 
+.footer span {
+  color: white;
+  font-size: 18px;
+}
+
 .map {
   width: 100%;
 }
@@ -929,7 +934,7 @@
 
 .footer-links a {
   text-decoration: none;
-  color: white;
+  color: #d1d1d1;
 }
 
 .footer-links ul {
@@ -937,9 +942,9 @@
 }
 
 .footer-links a:hover {
-  opacity: 0.8;
+  opacity: 0.9;
   color: white;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 /* case studies */
@@ -971,6 +976,7 @@
 .case h2 {
   font-weight: 100;
   margin-bottom: 20px;
+  padding-top: 20px;
 }
 
 .case ul li {

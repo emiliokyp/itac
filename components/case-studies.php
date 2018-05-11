@@ -20,7 +20,7 @@
 		</ul>
 	</div>
 
-	<div data-aos="fade-left" class="case">
+	<div id="retail" data-aos="fade-left" class="case">
 		<h2>Retail Industry</h2>
 		<ul>
 			<li>

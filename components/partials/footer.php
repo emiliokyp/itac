@@ -2,6 +2,7 @@
 
 	<div class="footer-links">
 		<ul>
+			<span>Navigation</span>
 			<li><a href="#home">Home</a></li>
 			<li><a href="#services">Services</a></li>
 			<li><a href="#industry">Experience</a></li>
