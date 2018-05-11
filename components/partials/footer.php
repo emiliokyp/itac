@@ -17,7 +17,6 @@
 		<a href="mailto:hello@itac.technology">Email</a>
 		<a href="javascript:;" onclick="window.location.href='/terms-of-service'">Terms of Service</a>
 	</div>
-
 	</section>
 
 
