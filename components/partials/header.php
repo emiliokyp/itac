@@ -30,6 +30,7 @@
 			once: true
 		});
   </script>
+	<div class="number-bar">02 6685 6797</div>
 	<div id="nav">
 		<div class="container">
 			<div class="logo-container">
