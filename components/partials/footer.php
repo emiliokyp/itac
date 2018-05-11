@@ -1,9 +1,9 @@
 <section class="footer">
 
-	<div class="footer-links">
+	<div class="footer-links link-listener">
 		<a href="#home">Home</a>
 		<a href="#services">Services</a>
-		<a href="#industry">Experience</a>
+		<a href="#industry">Solutions</a>
 		<a href="#contact">Contact</a>
 	</div>
 	<div class="footer-logo">

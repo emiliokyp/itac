@@ -29,6 +29,7 @@
   transition: 0.3s;
   filter: invert(100%) drop-shadow(1px 1px 5px grey);
   cursor: pointer;
+  border-bottom: 1px solid black;
 }
 
 .nav-list ul {
@@ -65,7 +66,7 @@
 }
 
 .shrink #logo {
-  width: 200px;
+  width: 180px;
   filter: none;
 }
 
