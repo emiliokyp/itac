@@ -1,6 +1,6 @@
 
 	<section id="industry" class="industry-section">
-		<h1>Our Solutions</h1>
+		<h1>Industry Solutions</h1>
 		<div class="industry-container">
 			<div data-aos="fade-left" class="industry">
 				<h3>Solutions for accommodation providers</h3>

@@ -47,7 +47,7 @@
 			</tr>
 		</table>
 		<div class="button-container">
-			<button class="sign-up">Book a session</button>
+			<button class="sign-up" onclick="Calendly.showPopupWidget('https://calendly.com/itactechnology');return false;">Book a session</button>
 			<button type="button" class="learn-more-pricing" data-toggle="modal" data-target="#exampleModal">Ask us a question</button>
 		</div>
 	</div>
@@ -99,7 +99,7 @@
 				</tr>
 				</table>
 		<div class="button-container">
-			<button class="sign-up">Book a session</button>
+			<button class="sign-up" onclick="Calendly.showPopupWidget('https://calendly.com/itactechnology');return false;">Book a session</button>
 			<button type="button" class="learn-more-pricing" data-toggle="modal" data-target="#exampleModal">Ask us a question</button>
 		</div>
 	</div>
@@ -150,7 +150,7 @@ Be quick, limited places available!
 			</tr>
 		</table>
 		<div class="button-container">
-			<button class="sign-up">Book a session</button>
+			<button class="sign-up" onclick="Calendly.showPopupWidget('https://calendly.com/itactechnology');return false;">Book a session</button>
 			<button type="button" class="learn-more-pricing" data-toggle="modal" data-target="#exampleModal">Ask us a question</button>
 		</div>
 	</div>
@@ -160,4 +160,3 @@ Be quick, limited places available!
 </span>
 	<span style="width: 80%; text-align: center;">Referral discounts and price breaks available. Contact us to find out how to qualify.</span>
 </section>
-

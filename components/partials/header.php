@@ -19,7 +19,10 @@
 	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
 	 crossorigin="anonymous"></script>
 	 <script src='https://www.google.com/recaptcha/api.js'></script>
-
+	 <!-- Calendly link widget begin -->
+	<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+	<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+	<!-- Calendly link widget end -->
 </head>
 <body>
 <script>
@@ -100,13 +103,4 @@
 				<a href="#contact">CONTACT</a>
 			</li>
 		</ul>
-
-
-		<script>
-	
-
-
-			
-		
-		</script>
 	</div>
