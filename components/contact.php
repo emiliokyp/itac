@@ -19,7 +19,7 @@
 					<label for="additionalinfo">Message</label>
 					<textarea class="form-control" name="info" id="additionalinfo" rows="3"></textarea>
 				</div>
-				<div style="margin: 0 auto; width: 304px; height: 74px;"><div class="g-recaptcha" data-sitekey="6Ld2YFMUAAAAAHIfaabmCSnN3ABq6_9g02A8FB_d"></div></div>
+				<div style="margin: 0 auto; width: 304px; height: 74px; margin-bottom: 10px;"><div class="g-recaptcha" data-sitekey="6Ld2YFMUAAAAAHIfaabmCSnN3ABq6_9g02A8FB_d"></div></div>
 				<div class="submit-container">
 					<button type="submit" name="submit" class="submit">Submit</button>
 				</div>
