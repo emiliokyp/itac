@@ -13,8 +13,8 @@ switch ($request_uri[0]) {
 		require './views/thanks.php';
 		break;
 		// Everything else
-	case '/case-studies':
-		require './views/case-studies.view.php';
+	case '/industry-solutions':
+		require './views/industry-solutions.view.php';
 		break;
 	case '/pricing':
 		require './views/pricing.view.php';

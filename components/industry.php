@@ -14,7 +14,7 @@
 					<li>Cloud based email via G Suite and other third party application integrations</li>
 					<li>Website development, renovation and maintenance</li>
 				</ul>
-				<button onclick="window.location.href='/case-studies'" class="learn-more">Learn more</button>
+				<button onclick="window.location.href='/industry-solutions'" class="learn-more">Learn more</button>
 			</div>
 
 			<div data-aos="fade-right" class="industry">
@@ -29,7 +29,7 @@
 					<li>Cloud based email via G Suite and other third party application integrations</li>
 					<li>Website development, renovation and maintenance</li>
 				</ul>
-				<button onclick="window.location.href='/case-studies'" class="learn-more">Learn more</button>
+				<button onclick="window.location.href='/industry-solutions'" class="learn-more">Learn more</button>
 			</div>
 
 		<div data-aos="fade-left" class="industry">
@@ -41,7 +41,7 @@
 				<li>Cloud-based solutions, productivity and workflow enhancements for farm management</li>
 				<li>Cameras and surveillance systems</li>
 			</ul>
-			<button id="farming-button" class="learn-more">Learn more</button>
+			<button onclick="window.location.href='/industry-solutions'" id="farming-button" class="learn-more">Learn more</button>
 		</div>
 
 		</div>

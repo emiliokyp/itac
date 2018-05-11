@@ -1,3 +1,5 @@
+// nav shrinking and animating
+
 function nav() {
   if ($(document).scrollTop() > 100 || window.location.pathname != '/') {
     $('#nav').addClass('shrink');
@@ -20,6 +22,8 @@ $('.drop-down ul').on('click', function() {
   $('.drop-down').removeClass('menu-active');
   $('#burger').removeClass('close');
 });
+
+// type writer effect on hero
 
 document.addEventListener('DOMContentLoaded', function(event) {
   var dataText = ['Problem?', 'Solved. :)', 'Top Notch Tech Support'];
@@ -53,6 +57,8 @@ document.addEventListener('DOMContentLoaded', function(event) {
   StartTextAnimation(0);
 });
 
+// brands we love owl slider
+
 $(document).ready(function() {
   $('.owl-carousel').owlCarousel({
     items: 4,
@@ -80,4 +86,14 @@ $(document).ready(function() {
       }
     }
   });
+});
+
+// google recaptcha validation check
+
+var form = document.querySelector('#contact-form');
+form.addEventListener('submit', function(e) {
+  if (grecaptcha.getResponse() === '') {
+    e.preventDefault();
+    alert('Please check the recaptcha');
+  }
 });

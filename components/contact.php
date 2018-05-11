@@ -1,7 +1,7 @@
 	<section id="contact" class="contact">
 		<h1>Get in touch</h1>
 		<div class="form-container">
-			<form method="post" action="scripts/email.php" name="contact">
+			<form id="contact-form" method="post" action="scripts/email.php" name="contact">
 				<div class="form-group">
 					<label for="name">Your Name</label>
 					<input required="true" type="text" class="form-control" id="name" name="name" placeholder="John Smith">
@@ -19,6 +19,7 @@
 					<label for="additionalinfo">Message</label>
 					<textarea class="form-control" name="info" id="additionalinfo" rows="3"></textarea>
 				</div>
+				<div class="g-recaptcha" data-sitekey="6Ld2YFMUAAAAAHIfaabmCSnN3ABq6_9g02A8FB_d"></div>
 				<div class="submit-container">
 					<button type="submit" name="submit" class="submit">Submit</button>
 				</div>
