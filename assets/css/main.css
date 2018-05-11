@@ -898,6 +898,14 @@
   cursor: pointer;
 }
 
+/* recaptcha */
+
+.g-recaptcha {
+  width: 304px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
 /*  footer */
 
 .footer {
@@ -908,14 +916,6 @@
 
 .map {
   width: 100%;
-}
-
-/* recaptcha */
-
-.g-recaptcha {
-  width: 304px;
-  margin: 0 auto;
-  margin-bottom: 10px;
 }
 
 /* footer */
