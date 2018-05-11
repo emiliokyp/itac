@@ -32,7 +32,7 @@
 <div data-aos="fade-left" class="fixed-price-service">
 	<div class="service-image">
 		<h2>Fixed price guest wifi hotspot management</h2>
-		<p>$149 per network per month</p>
+		<p>$149 per network per service</p>
 	</div>
 	<table class="table table-striped">
 		<tr>

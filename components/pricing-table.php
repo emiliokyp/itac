@@ -29,7 +29,7 @@
 		<span class="price">$150/hr</span>
 		<table class="table table-striped">
 		<tr class="row-2">
-					<td>Join the club! Perfect for on demand support. Affords you priority response times by buying hours in 3 hour blocks ready for use whenever you choose.</td>
+					<td>Join the club! Perfect for on demand support. Affords you priority response times by purchasing support hours in advance ready for use whenever you choose.</td>
 				</tr>
 				<tr class="row-9">
 					<td>
