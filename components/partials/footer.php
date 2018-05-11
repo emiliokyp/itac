@@ -4,6 +4,7 @@
 		<a href="#home">Home</a>
 		<a href="#services">Services</a>
 		<a href="#industry">Solutions</a>
+		<a href="#pricing-table">Pricing</a>
 		<a href="#contact">Contact</a>
 	</div>
 	<div class="footer-logo">
