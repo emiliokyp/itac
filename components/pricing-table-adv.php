@@ -95,7 +95,7 @@
 </td>
 				</tr>
 				<tr class="row-10">
-					<th>Pre-purchase your support hours in 3, 5 or 10 hour blocks and save!<br> Convenient, automatic top up when you run low!*</th>
+					<th>Pre-purchase your support hours 5 or 10 hour blocks and save!<br> Convenient, automatic top up when you run low!*</th>
 				</tr>
 				</table>
 		<div class="button-container">

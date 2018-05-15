@@ -23,6 +23,7 @@
 	<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 	<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
 	<!-- Calendly link widget end -->
+	
 </head>
 <body>
 <script>
@@ -30,7 +31,6 @@
 			once: true
 		});
   </script>
-	<div class="number-bar">02 6685 6797</div>
 	<div id="nav">
 		<div class="container">
 			<div class="logo-container">
