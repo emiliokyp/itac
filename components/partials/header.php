@@ -31,6 +31,7 @@
 			once: true
 		});
   </script>
+	<div class="sticky-contact"><i class="far fa-envelope"></i> hello@itac.technology  <i style="margin-left: 10px;" class="fas fa-phone"></i> 02 6685 6797</div>
 	<div id="nav">
 		<div class="container">
 			<div class="logo-container">
@@ -46,7 +47,7 @@
 							<a href="#services">SERVICES</a>
 						</li>
 						<li>
-							<a href="#industry">SOLUTIONS</a>
+							<a href="#industry">INDUSTRY SOLUTIONS</a>
 						</li>
 
 						<li>
@@ -75,7 +76,7 @@
 				<a href="#services">SERVICES</a>
 			</li>
 			<li>
-				<a href="#industry">SOLUTIONS</a>
+				<a href="#industry">INDUSTRY SOLUTIONS</a>
 			</li>
 			<li>
 				<a href="#pricing-table">PRICING</a>

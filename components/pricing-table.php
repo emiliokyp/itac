@@ -1,5 +1,5 @@
 <section  id="pricing-table">
-	<h1>Pricing</h1>
+	<h1>Service Level and Pricing</h1>
 	<div class="price-container">
 	<div data-aos="fade-up" class="price-box">
 		<h3>Casual</h3>
@@ -59,7 +59,7 @@
 				<td>
 				Perfect for:
 					<ul>
-						<li>Accomodation providers</li>
+						<li>Accommodation providers</li>
 						<li>Medium to large retail operations</li>
 						<li>Small to large office based businesses</li>
 					</ul>

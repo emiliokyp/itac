@@ -3,6 +3,19 @@
   --main-color: #e83a30;
 }
 
+.sticky-contact {
+  text-align: right;
+  background-color: #333;
+  color: white;
+  position: fixed;
+  height: 25px;
+  width: 100%;
+  z-index: 5000;
+  padding-right: 10px;
+  font-size: 14px;
+  border-bottom: 1px solid black;
+}
+
 .container {
   width: 80%;
   margin: 0 auto;
@@ -22,6 +35,7 @@
   width: 100%;
   transition: 0.3s;
   z-index: 5;
+  margin-top: 25px;
 }
 
 #logo {
@@ -441,8 +455,8 @@
 
 .about-left {
   padding: 20px;
+  padding-left: 100px;
   width: 50%;
-  padding-bottom: 20px;
   height: 100%;
   text-align: left;
 }
@@ -450,6 +464,11 @@
 .about-left p {
   color: lightgrey;
   text-align: left;
+  padding-left: 10px;
+}
+
+.about-left i {
+  font-size: 24px;
 }
 
 .about-right {
@@ -1043,6 +1062,32 @@
   padding-bottom: 150px;
 }
 
+#initials {
+  height: 50px;
+  width: 150px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 4px;
+  text-align: center;
+  vertical-align: top;
+  display: inline;
+  margin-bottom: 10px;
+}
+
+#date-submitted {
+  height: 50px;
+  width: 200px;
+  border-radius: 4px;
+  padding: 0;
+  vertical-align: top;
+  display: inline;
+  margin-bottom: 10px;
+}
+
+#initials::placeholder {
+  font-size: 12px;
+}
+
 #sign-up-form {
   width: 70%;
   margin: 0 auto;
@@ -1052,6 +1097,32 @@
   font-weight: 100;
   text-align: center;
   margin-bottom: 50px;
+}
+
+.sign-up-submit {
+  width: 150px;
+  height: 50px;
+  background-color: var(--main-color);
+  color: white;
+  transition: 0.3s;
+  vertical-align: top;
+  border: 1px solid var(--main-color);
+}
+
+.sign-up-submit:hover {
+  color: var(--main-color);
+  background: none;
+  border: 1px solid var(--main-color);
+}
+
+.readonly-info {
+  background-color: #f9f9f9;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 50px;
+  border: 1px solid #f1f1f1;
+  box-shadow: 1px 3px 10px #f9f9f9;
+  border-radius: 4px;
 }
 
 /* media queries */
@@ -1116,6 +1187,7 @@
 
   .about-left {
     width: 100%;
+    padding-left: 20px;
   }
 
   .about-right {

@@ -6,7 +6,7 @@
 		<h3>About us</h3>
 		<p>We take the time to understand you and ensure you are informed, confident and happy using your tech. No matter how good your technology is, if you and your team are not happy using it, it’s no good at all. We believe in forming strong working relationships with those we work with, grounded in a shared understanding of the technology at your disposal. That’s the itac.technology difference.</p>
 		<p>Established in 2009, with industry experience spanning over 25 years, Sam Hammond and the itac.technology team, based in Byron Bay, are your local, first point of contact for all things tech in your business. From simple computer repairs to office networking, Internet, POS and shop fit outs through to website management.</p>
-		<i>Leading. Local. Loving it!</i>
+		<i>Leading. Local. <strong>Loving it!</strong></i>
 	</div>
 	<div class="about-right">
 		<p>

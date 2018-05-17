@@ -2,7 +2,7 @@
 <h1>Industry Solutions</h1>
 	<div data-aos="fade-right" class="case">
 
-		<h2>Accomodation Providers</h2>
+		<h2>Case studies for Accommodation Providers</h2>
 		<ul>
 			<li class="client"><strong>Client</strong> - has a number of properties throughout Belongil and Byron Bay</li>
 			<li class="problem"><strong>Problem</strong> - they can’t be on location at every location all the time so required a way to monitor one of satellite properties for security and safety</li>
@@ -21,7 +21,7 @@
 	</div>
 
 	<div id="retail" data-aos="fade-left" class="case">
-		<h2>Retail Industry</h2>
+		<h2>Case studies for Retail Industry</h2>
 		<ul>
 			<li>
 			<strong>Client</strong> - has one of the busiest retail store operations in Byron Bay
@@ -41,7 +41,7 @@
 	</div>
 
 	<div id="farming" data-aos="fade-right" class="case">
-		<h2>Farming and Agriculture</h2>
+		<h2>Case studies for Farming and Agriculture</h2>
 		<ul>
 			<li><strong>Client</strong> - has a large livestock and crop growing property</li>
 			<li><strong>Problem</strong> - their main office is located in an Internet black spot, down a gully, yet requires fast, reliable Internet connection for day to day running on the business

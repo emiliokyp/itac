@@ -1,4 +1,4 @@
-<section class="fixed-prices">
+<section class="fixed-prices" id="fixed-prices">
 	<h1>Additional fixed price services</h1>
 	<h3 class="fixed-price-tagline">Forget the extra worry of "how much is this gonna cost me"? Introducing <strong>flat fee technology support</strong> for your business!</h3>
 

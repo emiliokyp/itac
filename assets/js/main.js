@@ -44,7 +44,7 @@ $('.link-listener').on('click', function(e) {
   } else if (e.target.innerHTML.toUpperCase() === 'HOME') {
     window.location.pathname = '/';
     window.location.pathname = '/';
-  } else if (e.target.innerHTML.toUpperCase() === 'SOLUTIONS') {
+  } else if (e.target.innerHTML.toUpperCase() === 'INDUSTRY SOLUTIONS') {
     window.location.pathname = '/industry-solutions';
     window.location.hash = '';
   } else if (e.target.innerHTML.toUpperCase() === 'SERVICES') {
@@ -62,7 +62,13 @@ $('.link-listener').on('click', function(e) {
 // type writer effect on hero
 
 document.addEventListener('DOMContentLoaded', function(event) {
-  var dataText = ['Problem?', 'Solved. :)', 'Top Notch Business Tech Support'];
+  var dataText = [
+    'Problem?',
+    'Solved. :)',
+    'Top Notch Business Tech Support',
+    'Real People, Real Connections',
+    'Real Support, Real Solutions'
+  ];
 
   function typeWriter(text, i, fnCallback) {
     if (i < text.length) {
@@ -81,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
     if (typeof dataText[i] == 'undefined') {
       setTimeout(function() {
         StartTextAnimation(0);
-      }, 20000);
+      }, 10000);
       return;
     }
     if (i < dataText[i].length) {

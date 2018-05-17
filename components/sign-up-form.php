@@ -1,43 +1,43 @@
 
 
 	<section class="sign-up-container">
-	<h1>Welcome to the club</h1>
+	<h1>Welcome Aboard! :)</h1>
 		<form action="scripts/sign-up.php" method="post" id="sign-up-form">
 		<div class="form-group">
    	 			<label for="business_name">Business Name</label>
-    			<input type="text" class="form-control" id="business_name">
+    			<input name="business_name" type="text" class="form-control" id="business_name" required>
   		</div>
 			<div class="form-group">
    	 			<label for="business_phone">Business Phone</label>
-    			<input type="number" class="form-control" id="business_phone">
+    			<input name="business_phone" type="text" class="form-control" id="business_phone" required>
   		</div>
 			<div class="form-group">
    	 			<label for="business_email">Business Email</label>
-    			<input type="email" class="form-control" id="business_email" placeholder="name@example.com">
+    			<input name="business_email" type="email" class="form-control" id="business_email" required>
   		</div>
 			<div class="form-group">
    	 			<label for="business_address">Business Street Address</label>
-    			<input type="text" class="form-control" id="business_address">
+    			<input name="business_address" type="text" class="form-control" id="business_address" required>
   		</div>
 			<div style="margin-bottom: 50px;" class="form-group">
    	 			<label for="business_billing">Business Billing Address</label>
-    			<input type="number" class="form-control" id="business_billing">
+    			<input name="business_billing" placeholder="Leave blank if it is the same as your street address" type="text" class="form-control" id="business_billing">
   		</div>
 			<div class="form-group">
    	 			<label for="name">Your Full Name</label>
-    			<input type="text" class="form-control" id="name">
+    			<input name="name" type="text" class="form-control" id="name" required>
   		</div>
 			<div class="form-group">
    	 			<label for="phone">Your Mobile</label>
-    			<input type="number" class="form-control" id="phone">
+    			<input name="phone" type="number" class="form-control" id="phone" required>
   		</div>
 			<div class="form-group">
    	 			<label for="email">Your Email</label>
-    			<input type="email" class="form-control" id="email">
+    			<input name="email" type="email" class="form-control" id="email" required>
   		</div>
 			<div style="margin-bottom: 50px;" class="form-group">
    	 			<label for="birthday">Your Birthday 	<button style="background-color: none; border: none;" type="button" data-toggle="tooltip" data-placement="top" title="Why? two reasons, (1) in the event we need to use your details as verification to access an account and (2) so we can wish you happy birthday, of course!"><i class="fas fa-info-circle"></i></button></label>
-    			<input type="text" class="form-control" id="birthday" placeholder="DD/MM/YYYY">
+    			<input name="birthday" type="text" class="form-control" id="birthday" placeholder="DD/MM/YYYY" required>
   		</div>
 
 
@@ -47,21 +47,24 @@
   '_blank'
 );" style="background-color: none; border: none;" type="button" data-toggle="tooltip" data-placement="top" title="What are these? Full details of our service level and pricing tiers are available at itac.technology/pricing, click to view page"><i class="fas fa-info-circle"></i></button></label>
 			<div class="custom-control custom-radio">
-  				<input type="radio" id="platnium" name="service_level" class="custom-control-input" required>
-  				<label class="custom-control-label" for="platnium">Platnium Partnership $130 per hour</label>
+  				<input value="Platnium Partnership" type="radio" id="platnium" name="service_level" class="custom-control-input" required>
+  				<label class="custom-control-label" for="platnium">Platnium Partnership</label>
 				</div>
 			<div class="custom-control custom-radio">
-  			<input type="radio" id="prepaid" name="service_level" class="custom-control-input">
+  			<input value="Prepaid Retainer" type="radio" id="prepaid" name="service_level" class="custom-control-input">
   			<label class="custom-control-label" for="prepaid">Prepaid Retainer</label>
 			</div>
 			<div class="custom-control custom-radio">
-  			<input type="radio" id="casual" name="service_level" class="custom-control-input">
+  			<input value="Casual" type="radio" id="casual" name="service_level" class="custom-control-input">
   			<label class="custom-control-label" for="casual">Casual</label>
 			</div>
 		</div>
 
 		<div class="form-group">
-		<label for="platnium">Fixed Price Services</label>
+		<label for="platnium">Fixed Price Services <button onclick="window.open(
+  'https://itac.technology/pricing#fixed-prices',
+  '_blank'
+);" style="background-color: none; border: none;" type="button" data-toggle="tooltip" data-placement="top" title="What are these? Additional technology services at a fixed price! You’ll find full details for each service at itac.technology/pricing, click to view page"><i class="fas fa-info-circle"></i></button></label>
 			<div class="custom-control custom-checkbox">
   				<input type="checkbox" id="website" name="website" class="custom-control-input">
   				<label class="custom-control-label" for="website">Website Maintenance | $99 per website per Month</label>
@@ -76,12 +79,64 @@
 			</div>
 		</div>		
 
+	<div class="readonly-info">
 		<div class="form-group">
-		<label for="terms_1">Terms and Conditions</label>
+					<label for="agreement_date">Original Agreement Date</label>
+					<input class="form-control" type="text" id="agreement_date" name="agreement_date" readonly>
+		</div>
+
+			<div class="form-group">
+					<label for="latest_update">Latest Update Date</label>
+					<input class="form-control" type="text" id="latest_update" name="latest_update" readonly>
+		</div>
+
+		<div class="form-group">
+					<label for="minimum_term">Service Level Minimum Term</label>
+					<input class="form-control" type="text" id="minimum_term" name="minimum_term" readonly>
+		</div>
+
+		<div class="form-group">
+					<label for="monthly_rate">Monthly Rate</label>
+					<input class="form-control" type="text" id="monthly_rate" name="monthly_rate" readonly>
+		</div>
+
+		<div class="form-group">
+					<label for="hourly_rate">Hourly Rate</label>
+					<input class="form-control" type="text" id="hourly_rate" name="hourly_rate" readonly>
+		</div>
+
+
+		<div class="form-group">
+					<label for="retainer_recharge">Default Retainer Recharge</label>
+					<input class="form-control" type="text" id="retainer_recharge" name="retainer_recharge" readonly>
+		</div>
+
+
+
+		<div class="form-group">
+					<label for="notes">Notes</label>
+					<textarea class="form-control" type="text" id="notes" name="notes" readonly></textarea>
+		</div>
+
+
+		<div class="form-group">
+					<label for="travel_rate">Travel Rate</label>
+					<input class="form-control" type="text" id="travel_rate" name="travel_rate" value="50% of hourly rate (Effective beyond Byron Bay town limits)" readonly>
+		</div>
+
+			<div class="form-group">
+					<label for="after_hours">After Hours Rate</label>
+					<input class="form-control" type="text" id="after_hours" name="after_hours" value="2x hourly rate" readonly>
+		</div>
+
+
+		</div>
+		<div class="form-group">
+		<label for="terms_1">Terms of Service</label>
 		<div style="border: 1px solid lightgrey; padding: 10px; overflow: scroll; width: 100%; height: 300px; margin-bottom: 20px; border-radius: 4px;"><?php require './components/terms-of-service.php' ?></div>
 			<div class="custom-control custom-checkbox">
   			<input type="checkbox" class="custom-control-input" id="terms_1" required>
-  			<label class="custom-control-label" for="terms_1">Have read, understood and agree to engage itac.technology as per this document and have read and understand the pricing and service level information</label>
+  			<label class="custom-control-label" for="terms_1">Have read, understood and agree to engage itac.technology as per this document and have read and understand the <a href="https://itac.technology/pricing" target="_blank">pricing and service level information</a></label>
 			</div>
 			<div class="custom-control custom-checkbox">
   			<input type="checkbox" class="custom-control-input" id="terms_2" required>
@@ -92,7 +147,11 @@
   			<label class="custom-control-label" for="terms_3">Agree to setup a pre-authorised payment method if my service level compulsorily requires it</label>
 			</div>
 		</div>
-		<button type="submit" class="btn">Submit</button>
+
+
+		<input class="form-control" placeholder="Your initials" id="initials" type="text" aria-describedby="intials-context">
+		<input class="form-control" id="date-submitted" type="date">
+		<button type="submit" class="btn sign-up-submit">Submit</button>
 		</form>
 	</section>
 <script src="assets/js/formFields.js"></script>
