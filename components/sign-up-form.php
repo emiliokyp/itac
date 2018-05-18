@@ -66,18 +66,18 @@
   '_blank'
 );" style="background-color: none; border: none;" type="button" data-toggle="tooltip" data-placement="top" title="What are these? Additional technology services at a fixed price! You’ll find full details for each service at itac.technology/pricing, click to view page"><i class="fas fa-info-circle"></i></button></label>
 			<div class="custom-control custom-checkbox">
-  				<input type="checkbox" id="website" name="website" class="custom-control-input">
+  				<input value="1" type="checkbox" id="website" name="website" class="custom-control-input">
   				<label class="custom-control-label" for="website">Website Maintenance | $99 per website per Month</label>
 				</div>
 			<div class="custom-control custom-checkbox">
-  			<input type="checkbox" id="hotspot" name="hotspot" class="custom-control-input">
+  			<input value="1" type="checkbox" id="hotspot" name="hotspot" class="custom-control-input">
   			<label class="custom-control-label" for="hotspot">Guest Wifi Hotspot Management | $149 per network per service</label>
 			</div>
 			<div class="custom-control custom-checkbox" style="margin-bottom: 50px;">
-  			<input type="checkbox" id="computer_service" name="computer_service" class="custom-control-input">
+  			<input value="1" type="checkbox" id="computer_service" name="computer_service" class="custom-control-input">
   			<label class="custom-control-label" for="computer_service">Computer Service | $199 per computer</label>
 			</div>
-		</div>		
+		</div>
 
 	<div class="readonly-info">
 		<div class="form-group">

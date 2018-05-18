@@ -22,7 +22,7 @@ switch ($request_uri[0]) {
 	case '/contact':
 		require './views/contact.view.php';
 		break;
-	case '/sign-up':
+	case '/service-agreement':
 		require './views/sign-up.view.php';
 		break;
 	case '/terms-of-service':

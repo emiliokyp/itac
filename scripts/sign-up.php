@@ -74,8 +74,7 @@ if ($_POST) {
 			. '<strong>After Hours Rate: </strong>' . $_POST['after_hours'] . '<br>';
 
 		$mail->Body .= '<br><br>If any of this information is incorrect or has been change, please contact us immediately :)';
-
-		// $mail->send();
+		$mail->send();
 
 	} catch (Exception $e) {
 		echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
