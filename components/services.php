@@ -13,7 +13,6 @@
 				<li>NBN Transitions</li>
 				<li>Calling, hardware, infastructure</li>
 				<li>PTP</li>
-				<li>??</li>
 			</ul>
 		</div>
 	</div>
@@ -25,12 +24,12 @@
 			<h3>Workflow</h3>
 			<ul>
 				<li>Gsuite</li>
-				<li>Cloud ? Data</li>
+				<li>Cloud Data</li>
 				<li>Business grade backups</li>
 				<li>POS</li>
 				<li>Productivity Apps</li>
 				<li>CRM/CMS/Industry platforms</li>
-				<li>EMS?</li>
+				<li>EMS</li>
 				<li>Xero/Trello/Harvest</li>
 			</ul>
 		</div>
@@ -42,7 +41,6 @@
 		<div class="service-right">
 			<h3>Hardware + Software</h3>
 			<ul>
-				<li>??</li>
 				<li>Advice</li>
 				<li>Installation</li>
 				<li>Customisation</li>
@@ -64,7 +62,7 @@
 			<ul>
 				<li>Design and Development</li>
 				<li>Maintenance</li>
-				<li>Integrations???</li>
+				<li>Integrations</li>
 				<li>Renovations</li>
 			</ul>
 		</div>

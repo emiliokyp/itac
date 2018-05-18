@@ -374,7 +374,7 @@
 .testimonials-container {
   width: 80%;
   margin: 0 auto;
-  padding: 50px 0px 200px 0px;
+  padding: 50px 0px 300px 0px;
 }
 
 .title-container {
@@ -464,7 +464,6 @@
 .about-left p {
   color: lightgrey;
   text-align: left;
-  padding-left: 10px;
 }
 
 .about-left i {
@@ -823,6 +822,22 @@
 
 /* fixed prices */
 
+.book-now {
+  width: 100%;
+  height: 50px;
+  background-color: var(--main-color);
+  color: white;
+  border: 1px solid var(--main-color);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.book-now:hover {
+  background: none;
+  color: var(--main-color);
+}
+
 .fixed-prices h1 {
   text-align: center;
   font-weight: 100;
@@ -848,10 +863,10 @@
 }
 
 .fixed-price-service {
-  width: 80%;
+  width: 95%;
   margin: 0 auto;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin-top: 50px;
   border: 1px solid #f5f5f5;
   box-shadow: 1px 3px 10px #f5f5f5;
@@ -863,7 +878,7 @@
 
 .service-image {
   padding: 10px;
-  width: 300px;
+  width: 100%;
   background-color: var(--main-color);
   color: white;
   text-align: center;
@@ -871,8 +886,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-top-left-radius: 4px;
-  border-bottom-left-radius: 4px;
+  border-radius: 4px;
 }
 
 /* contact */
@@ -990,6 +1004,15 @@
 }
 
 /* case studies */
+
+.btn-case-studies {
+  transition: 0.5s !important;
+}
+
+
+.btn-case-studies:hover {
+  transform: translateX(10px);
+}
 
 .case-studies {
   padding-top: 100px;

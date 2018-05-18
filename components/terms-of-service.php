@@ -33,7 +33,7 @@
 </p>
 
 <p>
-	Thanks for being part of the itac.technology family!
+	Thanks for being part of the itac.technology clan!
 </p>
 
 </div>

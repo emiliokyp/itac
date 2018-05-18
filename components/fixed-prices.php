@@ -27,7 +27,9 @@
 			<td><i class="fas fa-check"></i> Website content changes and design modifications available at your standard hourly rate</td>
 		</tr>
 	</table>
+	<button type="button" class="book-now" name="button" data-toggle="modal" data-target="#exampleModal">Book now</button>
 </div>
+
 
 <div data-aos="fade-left" class="fixed-price-service">
 	<div class="service-image">
@@ -51,6 +53,7 @@
 			<td><i class="fas fa-check"></i> Hardware upgrades and additional system enhancements available at your standard hourly rate</td>
 		</tr>
 	</table>
+		<button type="button" class="book-now" name="button" data-toggle="modal" data-target="#exampleModal">Book now</button>
 </div>
 
 <div data-aos="fade-right" class="fixed-price-service">
@@ -78,6 +81,7 @@
 			<td><i class="fas fa-check"></i> Report and quotation on any recommendations to further improve performance, security or functionality</td>
 		</tr>
 	</table>
+		<button type="button" class="book-now" name="button" data-toggle="modal" data-target="#exampleModal">Book now</button>
 </div>
 
-</section>	
+</section>

@@ -23,7 +23,7 @@
 	<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 	<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
 	<!-- Calendly link widget end -->
-	
+
 </head>
 <body>
 <script>
@@ -31,7 +31,7 @@
 			once: true
 		});
   </script>
-	<div class="sticky-contact"><i class="far fa-envelope"></i> hello@itac.technology  <i style="margin-left: 10px;" class="fas fa-phone"></i> 02 6685 6797</div>
+	<div class="sticky-contact">WEBSITE IS CURRENTLY UNDER DEVELOPMENT | <i class="far fa-envelope"></i> hello@itac.technology  <i style="margin-left: 10px;" class="fas fa-phone"></i> 02 6685 6797</div>
 	<div id="nav">
 		<div class="container">
 			<div class="logo-container">
