@@ -1,26 +1,42 @@
 <?php
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+require '../vendor/autoload.php';
+
 if ($_POST) {
+
+	$mail = new PHPMailer(true);
+
+	$mail->isSMTP();                                      		// Set mailer to use SMTP
+	$mail->Host = 'itac.technology';  												// Specify main and backup SMTP servers
+	$mail->SMTPAuth = true;                               		// Enable SMTP authentication
+	$mail->Username = 'webforms@itac.technology';                 // SMTP username
+	$mail->Password = 'co79dCk9QvNjwg3dwn9sVVfj46YD4p';       // SMTP password
+	$mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
+	$mail->Port = 465;
+
+	$mail->setFrom('hello@itac.technology', 'Hello! itac.technology');
+	$mail->addAddress($_POST['email'], $_POST['name']);
+	$mail->addAddress('hello@itac.technology', 'Hello! itac.technology');
+
 //post fields
 	$name = $_POST["name"];
 	$email = $_POST["email"];
 	$message = $_POST["message"];
-	$phone = $_POST["phone"];
+	$phone = $_POST["phone"] ? $_POST["phone"] : 'none';
 
 
-// headers for incoming email
-	$headers = "From: " . $email;
+	$mail->isHTML(true);
+	$mail->Subject = 'Thanks for your enquiry';
+	$mail->Body = 'We will be in contact with you shortly <br><br>'
+	. '<strong>Name: </strong>' . $_POST['name'] . '<br>'
+	. '<strong>Email: </strong>' . $_POST['email'] . '<br>'
+	. '<strong>Phone: </strong>' . $_POST['phone'] . '<br>'
+	. '<strong>Message: </strong>' . $_POST['message'] . '<br>';
 
-//send email to itac
-	mail("emilio@itac.technology", "Website enquiry: " . $email, "Email: " . $email . ", " . "Name: " . $name . ", " . "Phone no: " . $phone . ", " . "Message: " . $message, $headers);
-	
-// headers for potential client outgoing email
-	$headers_client = "MIME-Version: 1.0" . "\r\n";
-	$headers_client .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-	$headers_client .= 'From: <hello@itac.technology>' . "\r\n";
-	
+	$mail->send();
+	header("Location: /success");
 
-// send confirmation email
-	mail($email, "Thanks for your enquiry!", "<html><h3>We will be in contact with you soon :)</h3><br><img src='https://s3-ap-southeast-2.amazonaws.com/itac.technology/logo-mail-signature.png' /></html>", $headers_client);
-	header("Location: /thanks");
 }
 ?>

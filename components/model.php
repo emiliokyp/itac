@@ -13,7 +13,7 @@
       </div>
       <div class="modal-body">
 				<h5 style="font-weight: 100;">Send us a message</h5>
-        <form style="width: 90%; margin: 0 auto;" method="post" action="scripts/email-model.php" name="contact-model">
+        <form style="width: 90%; margin: 0 auto;" method="post" action="scripts/email.php" name="contact-model">
 				<div class="form-group">
             <label style="font-size: 14px;" for="name" class="col-form-label">Name:</label>
             <input type="text" required class="form-control" name="name" id="name">
@@ -32,7 +32,7 @@
       		</div>
         </form>
 			</div>
-     
+
 		</div>
   </div>
 </div>

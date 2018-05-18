@@ -21,7 +21,7 @@
 	</div>
 
 	<div id="retail" data-aos="fade-left" class="case">
-		<h2>Case studies for Retail Industry</h2>
+		<h2>Case studies for the Retail Industry</h2>
 		<ul>
 			<li>
 			<strong>Client</strong> - has one of the busiest retail store operations in Byron Bay

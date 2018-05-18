@@ -14,8 +14,8 @@
 <body style="margin-left: 20px; margin-top: 20px;">
 	<h1>Success!</h1>
 	<p>Your form has been successfully submitted, we will be in contact with you shortly</p>
-	<button class="btn btn-danger">
-		<a style="text-decoration: none; color: white;" href="/">Take me home!</a>
+	<button onclick="window.history.go(-1);" class="btn btn-danger">
+		<a style="text-decoration: none; color: white;" >Take me back!</a>
 	</button>
 </body>
 
