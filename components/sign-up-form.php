@@ -24,9 +24,17 @@
     			<input name="business_billing" placeholder="Leave blank if it is the same as your street address" type="text" class="form-control" id="business_billing">
   		</div>
 			<div class="form-group">
-   	 			<label for="name">Your Full Name</label>
-    			<input name="name" type="text" class="form-control" id="name" required>
+   	 			<label for="first_name">Your First Name</label>
+    			<input name="first_name" type="text" class="form-control" id="first_name" required>
   		</div>
+			<div class="form-group">
+					<label for="middle_name">Your Middle Name</label>
+					<input name="middle_name" type="text" class="form-control" id="middle_name">
+			</div>
+			<div class="form-group">
+					<label for="last_name">Your Last Name</label>
+					<input name="last_name" type="text" class="form-control" id="last_name" required>
+			</div>
 			<div class="form-group">
    	 			<label for="phone">Your Mobile</label>
     			<input name="phone" type="number" class="form-control" id="phone" required>
@@ -81,12 +89,12 @@
 
 	<div class="readonly-info">
 		<div class="form-group">
-					<label for="agreement_date">Original Agreement Date</label>
+					<label for="agreement_date">Original Agreement Commencement Date</label>
 					<input class="form-control" type="text" id="agreement_date" name="agreement_date" readonly>
 		</div>
 
 			<div class="form-group">
-					<label for="latest_update">Latest Update Date</label>
+					<label for="latest_update">Latest Agreement Update Date</label>
 					<input class="form-control" type="text" id="latest_update" name="latest_update" readonly>
 		</div>
 
@@ -152,6 +160,7 @@
 		<input required class="form-control" placeholder="Your initials" name="initials" id="initials" type="text" aria-describedby="intials-context">
 		<input required class="form-control" id="date_submitted" name="date_submitted" type="date">
 		<button type="submit" class="btn sign-up-submit">Submit</button>
+		<input type="hidden" name="id" value="<?php echo !empty($_GET['id']) ?htmlspecialchars($_GET['id']) :''; ?>" />
 		</form>
 	</section>
 <script src="assets/js/formFields.js"></script>

@@ -10,6 +10,7 @@ $options = array(
 );
 $conn = new PDO($dsn, $username, $password, $options);
 
+
 if (isset($_GET['id'])) {
 	$sql = $conn->prepare("SELECT * FROM Clients WHERE id=" . $_GET['id']);
 	$result = $sql->execute();
@@ -24,22 +25,23 @@ if ($_POST) {
 		$business_address = $_POST['business_address'];
 		$business_billing = $_POST['business_billing'];
 
-		$name = $_POST['name'];
-		$name_split = explode(" ", $name);
-		$first_name = $name_split[0];
-		$last_name = $name_split[1];
+		$first_name = $_POST['first_name'];
+		$middle_name = $_POST['middle_name'];
+		$last_name = $_POST['last_name'];
 
 
 		$phone = $_POST['phone'];
 		$email = $_POST['email'];
 		$birthday = $_POST['birthday'];
 		$service_level = $_POST['service_level'];
-		$website = $_POST['website'] ? $_POST['website'] : '1';
-		$hotspot = $_POST['hotspot'] ? $_POST['hotspot'] : '1';
-		$computer_service = $_POST['computer_service'] ? $_POST['computer_service'] : '1';
+		$website = $_POST['website'] ? $_POST['website'] : '0';
+		$hotspot = $_POST['hotspot'] ? $_POST['hotspot'] : '0';
+		$computer_service = $_POST['computer_service'] ? $_POST['computer_service'] : '0';
 
 		$initials = $_POST['initials'];
 		$date_submitted = $_POST['date_submitted'];
+
+		$id = $_POST['id'];
 
 		$update = $conn->prepare("UPDATE Clients SET
 		business_name = '$business_name',
@@ -48,6 +50,7 @@ if ($_POST) {
 		business_address = '$business_address',
 		business_billing = '$business_billing',
 		first_name = '$first_name',
+		middle_name = '$middle_name',
 		last_name = '$last_name',
 		phone = '$phone',
 		email = '$email',
@@ -58,7 +61,7 @@ if ($_POST) {
 		computer_service = '$computer_service',
 		date_submitted = '$date_submitted',
 		initials = '$initials'
-		WHERE id = 1");
+		WHERE id = '$id'");
 		$update->execute();
 
 }

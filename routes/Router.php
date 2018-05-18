@@ -9,7 +9,7 @@ switch ($request_uri[0]) {
 		require './views/index.view.php';
 		break;
     // About page
-	case '/thanks':
+	case '/success':
 		require './views/thanks.php';
 		break;
 		// Everything else

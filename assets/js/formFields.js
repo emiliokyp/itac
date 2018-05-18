@@ -8,6 +8,7 @@ var businessAddress = client.business_address;
 var businessBilling = client.business_billing;
 
 var firstName = client.first_name;
+var middleName = client.middle_name;
 var lastName = client.last_name;
 var phone = client.phone;
 var email = client.email;
@@ -85,9 +86,9 @@ businessBilling
 
 // Personal form inputs
 // Full name, only taken from URL if both variables are present
-firstName && lastName
-  ? (document.querySelector('#name').value = firstName + ' ' + lastName)
-  : false;
+firstName ? document.querySelector('#first_name').value = firstName : false;
+middleName ? document.querySelector('#middle_name').value = middleName : false;
+lastName ? document.querySelector('#last_name').value = lastName : false;
 phone ? (document.querySelector('#phone').value = phone) : false;
 email ? (document.querySelector('#email').value = email) : false;
 birthday ? (document.querySelector('#birthday').value = birthday) : false;
