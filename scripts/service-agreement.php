@@ -8,7 +8,6 @@ include('../database/config.php');
 
 
 
-
 if ($_POST) {
 
 	require '../vendor/autoload.php';
@@ -47,15 +46,15 @@ if ($_POST) {
 			. '<strong>Service Level: </strong>' . $_POST['service_level'] . '<br><br>'
 			. 'Additional Fixed Price Services: ' . '<br>';
 
-		if ($_POST['website']) {
+		if (isset($_POST['website'])) {
 			$mail->Body .= '<strong>Website Maintenance: </strong>' . '$99 Per website' . '<br>';
 		}
 
-		if ($_POST['hotspot']) {
+		if (isset($_POST['hotspot'])) {
 			$mail->Body .= '<strong>Guest Hotspot Management: </strong>' . '$149 Per network' . '<br>';
 		}
 
-		if ($_POST['computer_service']) {
+		if (isset($_POST['computer_service'])) {
 			$mail->Body .= '<strong>Computer Service</strong>: ' . '$199 Per computer' . '<br>';
 		}
 
@@ -71,7 +70,9 @@ if ($_POST) {
 			. '<strong>Default Retainer Recharge: </strong>' . $_POST['retainer_recharge'] . '<br>'
 			. '<strong>Notes: </strong>' . $_POST['notes'] . '<br>'
 			. '<strong>Travel Rate: </strong>' . $_POST['travel_rate'] . '<br>'
-			. '<strong>After Hours Rate: </strong>' . $_POST['after_hours'] . '<br>';
+			. '<strong>After Hours Rate: </strong>' . $_POST['after_hours'] . '<br><br>'
+			. '<strong>Initials: </strong>' . $_POST['initials'] . '<br>'
+			. '<strong>Date Submitted: </strong>' . $_POST['date_submitted'] . '<br>';
 
 		$mail->Body .= '<br><br>If any of this information is incorrect or has been change, please contact us immediately :)';
 		$mail->send();

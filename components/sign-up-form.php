@@ -2,7 +2,7 @@
 
 	<section class="sign-up-container">
 	<h1>Welcome Aboard! :)</h1>
-		<form action="scripts/sign-up.php" method="post" id="sign-up-form">
+		<form action="scripts/service-agreement.php" method="post" id="sign-up-form">
 		<div class="form-group">
    	 			<label for="business_name">Business Name</label>
     			<input name="business_name" type="text" class="form-control" id="business_name" required>
@@ -149,8 +149,8 @@
 		</div>
 
 
-		<input class="form-control" placeholder="Your initials" id="initials" type="text" aria-describedby="intials-context">
-		<input class="form-control" id="date-submitted" type="date">
+		<input required class="form-control" placeholder="Your initials" name="initials" id="initials" type="text" aria-describedby="intials-context">
+		<input required class="form-control" id="date_submitted" name="date_submitted" type="date">
 		<button type="submit" class="btn sign-up-submit">Submit</button>
 		</form>
 	</section>

@@ -24,16 +24,22 @@ if ($_POST) {
 		$business_address = $_POST['business_address'];
 		$business_billing = $_POST['business_billing'];
 
-		// work out first and last name
+		$name = $_POST['name'];
+		$name_split = explode(" ", $name);
+		$first_name = $name_split[0];
+		$last_name = $name_split[1];
+
 
 		$phone = $_POST['phone'];
 		$email = $_POST['email'];
 		$birthday = $_POST['birthday'];
 		$service_level = $_POST['service_level'];
-		$website = 1;
-		$hotspot = $_POST['hotspot'];
-		$computer_service = $_POST['computer_service'];
+		$website = $_POST['website'] ? $_POST['website'] : '1';
+		$hotspot = $_POST['hotspot'] ? $_POST['hotspot'] : '1';
+		$computer_service = $_POST['computer_service'] ? $_POST['computer_service'] : '1';
 
+		$initials = $_POST['initials'];
+		$date_submitted = $_POST['date_submitted'];
 
 		$update = $conn->prepare("UPDATE Clients SET
 		business_name = '$business_name',
@@ -41,13 +47,17 @@ if ($_POST) {
 		business_email = '$business_email',
 		business_address = '$business_address',
 		business_billing = '$business_billing',
+		first_name = '$first_name',
+		last_name = '$last_name',
 		phone = '$phone',
 		email = '$email',
 		birthday = '$birthday',
 		service_level = '$service_level',
 		website = '$website',
 		hotspot = '$hotspot',
-		computer_service = '$computer_service'
+		computer_service = '$computer_service',
+		date_submitted = '$date_submitted',
+		initials = '$initials'
 		WHERE id = 1");
 		$update->execute();
 
