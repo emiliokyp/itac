@@ -74,13 +74,13 @@ if (isset($_POST['update-or-add']) && isset($_POST['id'])) {
 }
 
 if (isset($_POST['update-or-add']) && !isset($_POST['id'])) {
-  echo 'hi';
   $new_client = $conn->prepare("INSERT INTO Clients (business_name, business_phone, business_email, business_address, business_billing, first_name, middle_name, last_name,
   phone, email, birthday, service_level, website, hotspot, computer_service, agreement_date, latest_update, minimum_term, monthly_rate, hourly_rate, retainer_recharge, notes, travel_rate, after_hours)
   VALUES ('$business_name', '$business_phone', '$business_email', '$business_address', '$business_billing', '$first_name', '$middle_name',
   '$last_name', '$phone', '$email', '$birthday', '$service_level', '$website', '$hotspot', '$computer_service', '$agreement_date',
   '$latest_update', '$minimum_term', '$monthly_rate', '$hourly_rate', '$retainer_recharge', '$notes', '$travel_rate', '$after_hours')");
   $new_client->execute();
+  $id = $conn->lastinsertid();
 }
 
  ?>
