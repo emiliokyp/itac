@@ -80,7 +80,7 @@ if ($_POST) {
 		$mail->Body .= '<br><br>Please contact us within 7 days to amend this agreement'
 		. '<br><br><strong>Welcome to the clan!</strong><br><br>';
 
-		// $mail->send();
+		$mail->send();
 
 		header('Location: /success');
 	} catch (Exception $e) {
