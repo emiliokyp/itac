@@ -22,7 +22,7 @@ if ($_POST) {
   $mail->Subject = 'New or updated client record';
   $mail->Body = '<strong>Client Name: </strong>' . $_POST['business_name'] . '<br>'
   . '<strong>Link for Client: </strong>https://itac.technology/service-agreement?id=' . $id . '<br>'
-  . '<strong>Link to Update Client: </strong>https://itac.technology/database-update?id=' . $id;
+  . '<strong>Link to Update Client: </strong>https://itac.technology/admin?id=' . $id;
 
   $mail->send();
   header('Location: /success');

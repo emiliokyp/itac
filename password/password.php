@@ -1,4 +1,3 @@
 <?php
 
-$admin_password = "admin";
-$password = "client";
+$admin_password = "1tAc2018!";
