@@ -1105,6 +1105,7 @@
   vertical-align: top;
   display: inline;
   margin-bottom: 10px;
+  padding-left: 10px;
 }
 
 #initials::placeholder {
@@ -1114,6 +1115,17 @@
 #sign-up-form {
   width: 70%;
   margin: 0 auto;
+}
+
+#form_signed_by {
+  height: 50px;
+  width: 200px;
+  border-radius: 4px;
+  padding: 0;
+  vertical-align: top;
+  display: inline;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .sign-up-container h1 {

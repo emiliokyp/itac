@@ -28,7 +28,7 @@ switch ($request_uri[0]) {
 	case '/terms-of-service':
 		require './views/terms.view.php';
 		break;
-	case '/database-update':
+	case '/admin':
 		require './views/database.view.php';
 		break;
 	default:

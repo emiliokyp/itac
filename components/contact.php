@@ -10,7 +10,6 @@
 					<label for="emailinput">Your Email</label>
 					<input required="true" type="email" name="email" class="form-control" id="emailinput" placeholder="name@example.com">
 				</div>
-
 				<div class="form-group">
 					<label for="phone">Phone number</label>
 					<input required="true" type="text" class="form-control" id="phone" name="phone" placeholder="0412 345 678">

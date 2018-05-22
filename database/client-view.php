@@ -30,6 +30,7 @@ if (isset($_POST['id'])) {
 		$hotspot = $_POST['hotspot'] ? $_POST['hotspot'] : '0';
 		$computer_service = $_POST['computer_service'] ? $_POST['computer_service'] : '0';
 
+    $form_signed_by = $_POST['form_signed_by'];
 		$initials = $_POST['initials'];
 		$date_submitted = $_POST['date_submitted'];
 
@@ -51,6 +52,7 @@ if (isset($_POST['id'])) {
 		website = '$website',
 		hotspot = '$hotspot',
 		computer_service = '$computer_service',
+    form_signed_by = '$form_signed_by',
 		date_submitted = '$date_submitted',
 		initials = '$initials'
 		WHERE id = '$id'");

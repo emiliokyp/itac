@@ -68,17 +68,14 @@ if ($_POST) {
 			. '<strong>Notes: </strong>' . $_POST['notes'] . '<br>'
 			. '<strong>Travel Rate: </strong>' . $_POST['travel_rate'] . '<br>'
 			. '<strong>After Hours Rate: </strong>' . $_POST['after_hours'] . '<br>______________________________________________________<br><br>'
+			.	'[YES] - Have read, understood and agree to engage itac.technology as per this document and have read and understand the pricing and service level information. <br>'
+			. '[YES] - Agree to contact itac.technology within 7 days if changes need to be made to this agreement. <br>'
+			. '[YES] - Agree to setup a pre-authorised payment method if my service level requires it. <br>'
+			. '<strong>Form Signatory: </strong>' . $_POST['form_signed_by'] . '<br>'
 			. '<strong>Initials: </strong>' . $_POST['initials'] . '<br>'
-			. '<strong>Date Submitted: </strong>' . $_POST['date_submitted'] . '<br>';
-
-
-		$mail->Body .= '[YES] - Have read, understood and agree to engage itac.technology as per this document and have read and understand the pricing and service level information <br>'
-		. '[YES] - Agree to review my business service agreement once it is supplied to me via email and contact itac.technology within 7 days if changes need to be made, else my agreement is implied and confirmed <br>'
-		. '[YES] - Agree to setup a pre-authorised payment method if my service level compulsorily requires it <br>';
-
-
-		$mail->Body .= '<br><br>Please contact us within 7 days to amend this agreement'
-		. '<br><br><strong>Welcome to the clan!</strong><br><br>';
+			. '<strong>Date Submitted: </strong>' . $_POST['date_submitted'] . '<br>'
+			.	'<br><br>Please contact us within 7 days to amend this agreement'
+			. '<br><br><strong>Thanks for being part of the itac.technology clan! <img style="width: 20px;" width="20px" src="https://s3-ap-southeast-2.amazonaws.com/itac.technology/meerkat.png"></strong><br><br>';
 
 		$mail->send();
 

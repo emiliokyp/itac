@@ -31,9 +31,4 @@
 <p>
 	<strong>Cancellations</strong> - We appreciate and respect that your time is valuable as is the time we allocate to working with you. Please bear this in mind as any booked and confirmed sessions cancelled with less than 24 hours notice will incur a cancellation fee.
 </p>
-
-<p>
-	Thanks for being part of the itac.technology clan!
-</p>
-
 </div>

@@ -1,7 +1,7 @@
   <?php require './database/client-view.php'; ?>
 
 	<section class="sign-up-container">
-	<h1>Welcome Aboard! :)</h1>
+	<h1><img style="width: 50px; padding-bottom: 10px; margin-right: 15px;" src="https://s3-ap-southeast-2.amazonaws.com/itac.technology/meerkat.png" alt="">Welcome to the clan! :)</h1>
 		<form action="scripts/service-agreement.php" method="post" id="sign-up-form">
 		<div class="form-group">
    	 			<label for="business_name">Business Name</label>
@@ -148,15 +148,15 @@
 			</div>
 			<div class="custom-control custom-checkbox">
   			<input type="checkbox" class="custom-control-input" id="terms_2" required>
-  			<label class="custom-control-label" for="terms_2">Agree to review my business’ service agreement once it is supplied to me via email and contact itac.technology within 7 days if changes need to be made, else my agreement is implied and confirmed</label>
+  			<label class="custom-control-label" for="terms_2">Agree to contact itac.technology within 7 days if changes need to be made to this agreement.</label>
 			</div>
 			<div class="custom-control custom-checkbox">
   			<input type="checkbox" class="custom-control-input" id="terms_3" required>
-  			<label class="custom-control-label" for="terms_3">Agree to setup a pre-authorised payment method if my service level compulsorily requires it</label>
+  			<label class="custom-control-label" for="terms_3">Agree to setup a pre-authorised payment method if my service level requires it</label>
 			</div>
 		</div>
 
-
+    <input required class="form-control" placeholder="Your Name" type="text" name="form_signed_by" id="form_signed_by">
 		<input required class="form-control" placeholder="Your initials" name="initials" id="initials" type="text" aria-describedby="intials-context">
 		<input required class="form-control" id="date_submitted" name="date_submitted" type="date">
 		<button type="submit" class="btn sign-up-submit">Submit</button>
