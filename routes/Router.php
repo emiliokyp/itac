@@ -28,6 +28,9 @@ switch ($request_uri[0]) {
 	case '/terms-of-service':
 		require './views/terms.view.php';
 		break;
+	case '/database-update':
+		require './views/database.view.php';
+		break;
 	default:
 		header('HTTP/1.0 404 Not Found');
 		require './views/404.php';

@@ -1,4 +1,4 @@
-
+  <?php require './database/client-view.php'; ?>
 
 	<section class="sign-up-container">
 	<h1>Welcome Aboard! :)</h1>
@@ -37,7 +37,7 @@
 			</div>
 			<div class="form-group">
    	 			<label for="phone">Your Mobile</label>
-    			<input name="phone" type="number" class="form-control" id="phone" required>
+    			<input name="phone" type="text" class="form-control" id="phone" required>
   		</div>
 			<div class="form-group">
    	 			<label for="email">Your Email</label>

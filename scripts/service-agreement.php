@@ -4,7 +4,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-include('../database/config.php');
+include('../database/client-view.php');
 
 
 
@@ -16,14 +16,7 @@ if ($_POST) {
 
 	try {
 	//Server settings                          		// Enable verbose debug output
-		$mail->isSMTP();                                      		// Set mailer to use SMTP
-		$mail->Host = 'itac.technology';  												// Specify main and backup SMTP servers
-		$mail->SMTPAuth = true;                               		// Enable SMTP authentication
-		$mail->Username = 'webforms@itac.technology';                 // SMTP username
-		$mail->Password = 'co79dCk9QvNjwg3dwn9sVVfj46YD4p';       // SMTP password
-		$mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
-		$mail->Port = 465;                                    // TCP port to connect to
-
+	include('mail-server-config.php');
 
 	//Recipients
 		$mail->setFrom('hello@itac.technology', 'Hello! itac.technology');
@@ -87,7 +80,7 @@ if ($_POST) {
 		$mail->Body .= '<br><br>Please contact us within 7 days to amend this agreement'
 		. '<br><br><strong>Welcome to the clan!</strong><br><br>';
 
-		$mail->send();
+		// $mail->send();
 
 		header('Location: /success');
 	} catch (Exception $e) {

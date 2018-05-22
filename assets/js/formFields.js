@@ -94,6 +94,7 @@ email ? (document.querySelector('#email').value = email) : false;
 birthday ? (document.querySelector('#birthday').value = birthday) : false;
 
 // Service level radio buttons
+if (window.location.pathname.toLowerCase() === '/service-agreement') {
 switch (serviceLevel.toLowerCase()) {
   case 'platnium partnership':
     document.querySelector('#platnium').checked = true;
@@ -109,8 +110,22 @@ switch (serviceLevel.toLowerCase()) {
     break;
   default:
     break;
+  }
+} else {
+    switch (serviceLevel.toLowerCase()) {
+      case 'platnium partnership':
+        document.querySelector('#platnium').checked = true;
+        break;
+      case 'prepaid retainer':
+        document.querySelector('#prepaid').checked = true;
+        break;
+      case 'casual':
+        document.querySelector('#casual').checked = true;
+        break;
+      default:
+        break;
+    }
 }
-
 // Fixed price services
 website == "1" ? (document.querySelector('#website').checked = true) : false;
 hotspot == "1" ? (document.querySelector('#hotspot').checked = true) : false;
