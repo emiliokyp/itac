@@ -1,9 +1,12 @@
 <?php
 
-include('./password/password.php');
-$admin_password = password_hash($admin_password, PASSWORD_BCRYPT);
+include('./database/config.php');
+// var_dump($admin_password);
+$sql = $conn->prepare("SELECT admin_password FROM passwords WHERE id=1");
+$admin_password = $sql->execute();
+$admin_password = $sql->fetch(PDO::FETCH_ASSOC);
 // If password is valid let the user get access
-if ((isset($_POST["admin_password"])) && (password_verify($_POST["admin_password"], $admin_password))) {
+if ((isset($_POST["admin_password"])) && (password_verify($_POST["admin_password"], implode($admin_password)))) {
   require './components/partials/header.php';
   require './components/database-update.php';
   require './components/partials/footer.php';
