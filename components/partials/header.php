@@ -13,24 +13,15 @@
 	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 	})(window,document,'script','dataLayer','GTM-5BH58V');</script>
 <!-- End Google Tag Manager -->
-	<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-	 <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/main.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-	 crossorigin="anonymous">
+	crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
 	 crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="dependencies/owl.carousel.min.css">
-	<script src="dependencies/owl.carousel.min.js"></script>
 	<link rel="stylesheet" href="dependencies/owl.theme.default.min.css">
-	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
-	 crossorigin="anonymous"></script>
-	 <script src='https://www.google.com/recaptcha/api.js'></script>
-	 <!-- Calendly link widget begin -->
-	<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-	<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
-	<!-- Calendly link widget end -->
+	<script src="dependencies/owl.carousel.min.js"></script>
 </head>
 <body>
 	<!-- Google Tag Manager (noscript) -->
