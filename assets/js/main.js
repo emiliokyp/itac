@@ -1,5 +1,11 @@
-// nav shrinking and animating
 
+// init page animations
+AOS.init({
+  once: true
+});
+
+
+// nav shrinking and animating
 function nav() {
   if ($(document).scrollTop() > 100 || window.location.pathname != '/') {
     $('#nav').addClass('shrink');

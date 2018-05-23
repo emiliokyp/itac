@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>itac technology, professional problem solvers</title>
+	<link rel="shortcut icon" href="favicon.ico">
 	<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 	 <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
@@ -23,14 +24,8 @@
 	<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 	<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
 	<!-- Calendly link widget end -->
-
 </head>
 <body>
-<script>
-    AOS.init({
-			once: true
-		});
-  </script>
 	<div class="sticky-contact">WEBSITE IS CURRENTLY UNDER DEVELOPMENT | <i class="far fa-envelope"></i> hello@itac.technology  <i style="margin-left: 10px;" class="fas fa-phone"></i> 02 6685 6797</div>
 	<div id="nav">
 		<div class="container">

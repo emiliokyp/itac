@@ -1,48 +1,40 @@
 
 <div class="testimonials-container">
 	<div class="title-container">
-		<h1>Our clients</h1>
+		<h1>Happy Customers :)</h1>
 	</div>
 	<section data-aos="fade-up" class="testimonials owl-carousel">
 
 		<div class="item testimonial">
-			<div class="testimonial-logo"></div>
-			<h4>John Mitchell</h4>
+			<div class="testimonial-logo" id="john_karen"></div>
+			<h4>John & Karen</h4>
 			<h5>The Book Room Collective</h5>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt debitis sit velit sint laudantium veritatis quaerat voluptate delectus numquam autem.</p>
+			<p>Despite our best efforts to remain in the technological dark ages in the company of the other computer illiterates, itac.technology has gently guided us towards tomorrow. Our computers now offer support rather than frustration. We have on-hand back up for hardware, software and data. A person answers the phone when we are in trouble. Most importantly we have learnt to turn it off and then on again.</p>
 		</div>
 
 			<div class="item testimonial">
-			<div class="testimonial-logo"></div>
-			<h4>John Harrison</h4>
+			<div class="testimonial-logo" id="john_jill"></div>
+			<h4>John & Jill</h4>
 			<h5>Byron Quarter</h5>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit debitis possimus excepturi et adipisci rem sapiente totam deserunt assumenda voluptatem dignissimos architecto quaerat, est cupiditate?</p>
+			<p>Through the platinum partnership with itac.technology, all our technology needs are taken care of. Over our time working together Sam and the team have become our first call for any question no matter how small or any larger project from new office technology fit outs to improving our guest wifi network.</p>
 		</div>
 
 			<div class="item testimonial">
-			<div class="testimonial-logo"></div>
-			<h4>Ian Astley</h4>
+			<div class="testimonial-logo" id="ian"></div>
+			<h4>Ian</h4>
 			<h5>Bluewater On The Beach</h5>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit totam sit, aut ullam ex laboriosam labore quaerat.</p>
+			<p>The ongoing, priority support we receive from itac.technology is invaluable. It's nice to be able to pick up the phone or send an email and get a fast, local response. The intimate understanding of our business that they have built up over the years save us so much time, money and stress as they have taken the time to get to know us and the business inside out. It's like having an internal IT department, without the internal IT department costs!</p>
 		</div>
 
 			<div class="item testimonial">
-			<div class="testimonial-logo"></div>
-			<h4>Johnny Rugers</h4>
-			<h5>Shogun Signs and Print</h5>
-			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio magnam praesentium numquam ullam in placeat.</p>
-		</div>
-
-
-			<div class="item testimonial">
-			<div class="testimonial-logo"></div>
-			<h4>Bruno Kortenhorst</h4>
-			<h5>Leela Plantations Pty Ltd</h5>
-			<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum porro a deserunt provident qui. Sint magnam vero reiciendis sunt deserunt.</p>
+			<div class="testimonial-logo" id="jane"></div>
+			<h4>Jane</h4>
+			<h5>Byron Bay Luxury Weddings</h5>
+			<p>Sam and the itac.technology team have been a substantial help to me with the IT side of our business as this was not at all a strong point or what I do. I am a great believer of getting the experts to do the jobs you can't and itac.technology definitely took our business on board and assisted me where the help was needed. As someone who likes to work have a local to do business with, this was very important that we could engage with someone that was local and someone we could connect with at any time.</p>
 		</div>
 
 	</section>
-	
+
 	<script>
 		$('.testimonials').owlCarousel({
 			loop:true,

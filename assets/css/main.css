@@ -367,14 +367,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 30vh;
   text-align: center;
 }
 
 .testimonials-container {
   width: 80%;
   margin: 0 auto;
-  padding: 50px 0px 300px 0px;
+  padding: 50px 0px 100px 0px;
 }
 
 .title-container {
@@ -384,7 +383,7 @@
 .title-container h1 {
   font-weight: 100;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 
 .testimonial {
@@ -413,11 +412,30 @@
 }
 
 .testimonial-logo {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   text-align: center;
   margin: 20px auto;
   border-radius: 100%;
+  filter: grayscale();
+}
+
+#jane {
+  background-image: url('../img/jane.jpg');
+  background-size: cover;
+}
+
+#john_karen {
+  background-image: url('../img/john_karen.jpg');
+  background-size: cover;
+}
+
+#john_jill {
+  background-image: url('../img/john_jill.jpg');
+  background-size: cover;
+}
+
+#ian {
   background-color: #333;
 }
 
@@ -1163,6 +1181,15 @@
 /* media queries */
 
 @media (max-width: 992px) {
+  .sticky-contact {
+    display: none;
+    margin: 0;
+  }
+
+  #nav {
+    margin-top: 0;
+  }
+
   .footer-links {
     flex-direction: column;
   }

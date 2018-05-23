@@ -10,7 +10,7 @@
 						/>
 					</svg>
 				</div>
-				
+
 				<div class="brand">
 					<svg preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 500 150">
 						<g fill="var(--main-color)" class="st0">
