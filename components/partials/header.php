@@ -6,6 +6,13 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>itac technology, professional problem solvers</title>
 	<link rel="shortcut icon" href="favicon.ico">
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-5BH58V');</script>
+<!-- End Google Tag Manager -->
 	<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 	 <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
@@ -26,6 +33,10 @@
 	<!-- Calendly link widget end -->
 </head>
 <body>
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5BH58V"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 	<div class="sticky-contact">WEBSITE IS CURRENTLY UNDER DEVELOPMENT | <i class="far fa-envelope"></i> hello@itac.technology  <i style="margin-left: 10px;" class="fas fa-phone"></i> 02 6685 6797</div>
 	<div id="nav">
 		<div class="container">

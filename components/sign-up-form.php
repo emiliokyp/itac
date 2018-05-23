@@ -157,7 +157,6 @@
 		</div>
 
     <input required class="form-control" placeholder="Your Name" type="text" name="form_signed_by" id="form_signed_by">
-		<input required class="form-control" placeholder="Your initials" name="initials" id="initials" type="text" aria-describedby="intials-context">
 		<input required class="form-control" id="date_submitted" name="date_submitted" type="date">
 		<button type="submit" class="btn sign-up-submit">Submit</button>
 		<input type="hidden" name="id" value="<?php echo !empty($_GET['id']) ?htmlspecialchars($_GET['id']) :''; ?>" />

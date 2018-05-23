@@ -4,7 +4,6 @@ AOS.init({
   once: true
 });
 
-
 // nav shrinking and animating
 function nav() {
   if ($(document).scrollTop() > 100 || window.location.pathname != '/') {

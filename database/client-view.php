@@ -33,7 +33,6 @@ if (isset($_POST['id'])) {
     $computer_service = isset($_POST['computer_service']) ? $Firewall->getClean($_POST['computer_service']) : '0';
 
     $form_signed_by = $Firewall->getClean($_POST['form_signed_by']);
-		$initials = $Firewall->getClean($_POST['initials']);
 		$date_submitted = $Firewall->getClean($_POST['date_submitted']);
 
 		$id = $Firewall->getClean($_POST['id']);
@@ -55,8 +54,7 @@ if (isset($_POST['id'])) {
 		hotspot = '$hotspot',
 		computer_service = '$computer_service',
     form_signed_by = '$form_signed_by',
-		date_submitted = '$date_submitted',
-		initials = '$initials'
+		date_submitted = '$date_submitted'
 		WHERE id = '$id'");
 		$update->execute();
 
