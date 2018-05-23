@@ -138,7 +138,6 @@ $(document).ready(function() {
 
 
 // google recaptcha validation check
-
 var form = document.querySelector('#contact-form');
 form.addEventListener('submit', function(e) {
   if (grecaptcha.getResponse() === '') {
