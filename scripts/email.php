@@ -33,4 +33,3 @@ if ($_POST) {
 	header("Location: /success");
 
 }
-?>

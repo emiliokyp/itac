@@ -1,40 +1,42 @@
 <?php
 
 include('config.php');
+include('firewall.php');
+$Firewall = new Firewall();
 
 
 if (isset($_GET['id'])) {
-	$sql = $conn->prepare("SELECT * FROM Clients WHERE id=" . $_GET['id']);
+  $id = $Firewall->getClean($_GET['id']);
+	$sql = $conn->prepare("SELECT * FROM Clients WHERE id='$id'");
 	$result = $sql->execute();
 	$result = $sql->fetch(PDO::FETCH_ASSOC);
 }
 
 if (isset($_POST['id'])) {
 
-		$business_name = $_POST['business_name'];
-		$business_phone = $_POST['business_phone'];
-		$business_email = $_POST['business_email'];
-		$business_address = $_POST['business_address'];
-		$business_billing = $_POST['business_billing'];
+    $business_name = $Firewall->getClean($_POST['business_name']);
+    $business_phone = $Firewall->getClean($_POST['business_phone']);
+    $business_email = $Firewall->getClean($_POST['business_email']);
+    $business_address = $Firewall->getClean($_POST['business_address']);
+    $business_billing = $Firewall->getclean($_POST['business_billing']);
 
-		$first_name = $_POST['first_name'];
-		$middle_name = $_POST['middle_name'];
-		$last_name = $_POST['last_name'];
+    $first_name = $Firewall->getClean($_POST['first_name']);
+    $middle_name = $Firewall->getClean($_POST['middle_name']);
+    $last_name = $Firewall->getClean($_POST['last_name']);
 
+    $phone = $Firewall->getClean($_POST['phone']);
+    $email = $Firewall->getClean($_POST['email']);
+    $birthday = $Firewall->getClean($_POST['birthday']);
+    $service_level = $Firewall->getClean($_POST['service_level']);
+    $website = isset($_POST['website']) ? $Firewall->getClean($_POST['website']) : '0';
+    $hotspot = isset($_POST['hotspot']) ? $Firewall->getClean($_POST['hotspot']) : '0';
+    $computer_service = isset($_POST['computer_service']) ? $Firewall->getClean($_POST['computer_service']) : '0';
 
-		$phone = $_POST['phone'];
-		$email = $_POST['email'];
-		$birthday = $_POST['birthday'];
-		$service_level = $_POST['service_level'];
-		$website = $_POST['website'] ? $_POST['website'] : '0';
-		$hotspot = $_POST['hotspot'] ? $_POST['hotspot'] : '0';
-		$computer_service = $_POST['computer_service'] ? $_POST['computer_service'] : '0';
+    $form_signed_by = $Firewall->getClean($_POST['form_signed_by']);
+		$initials = $Firewall->getClean($_POST['initials']);
+		$date_submitted = $Firewall->getClean($_POST['date_submitted']);
 
-    $form_signed_by = $_POST['form_signed_by'];
-		$initials = $_POST['initials'];
-		$date_submitted = $_POST['date_submitted'];
-
-		$id = $_POST['id'];
+		$id = $Firewall->getClean($_POST['id']);
 
 		$update = $conn->prepare("UPDATE Clients SET
 		business_name = '$business_name',

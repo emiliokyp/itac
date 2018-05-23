@@ -10,7 +10,7 @@ if ((isset($_POST["admin_password"])) && (password_verify($_POST["admin_password
 }
 else {
 // Wrong password or no password entered display this message
-if (isset($_POST['password']) || $password == "") {
+if (isset($_POST['password']) || $admin_password == "") {
   print "<p align=\"center\"><font color=\"red\"><b>Incorrect Password</b><br>Please enter the correct password</font></p>";}
   print "<form method=\"post\"><p align=\"center\">Please enter your password for access<br>";
   print "<input name=\"admin_password\" type=\"password\" size=\"25\" maxlength=\"10\"><input value=\"Login\" type=\"submit\"></p></form>";
