@@ -87,7 +87,7 @@ if ($_POST) {
 			. '<strong>Form Signatory: </strong>' . $_POST['form_signed_by'] . '<br>'
 			. '<strong>Date Submitted: </strong>' . $_POST['date_submitted'] . '<br>'
 			.	'<br><br>Please contact us within 7 days to amend this agreement'
-			. '<br><br><strong>Thanks for being part of the itac.technology clan! <img style="width: 20px;" width="20px" src="https://s3-ap-southeast-2.amazonaws.com/itac.technology/meerkat.png"></strong><br><br>';
+			. '<br><br><strong>Thanks for being part of the itac.technology clan! <img style="width: 20px;" width="20px" src="https://s3-ap-southeast-2.amazonaws.com/itac.technology/Web+Assets/meerkat.png"></strong><br><br>';
 
 		$mail->send();
 
