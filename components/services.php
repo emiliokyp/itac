@@ -8,47 +8,50 @@
 
 		<div  class="service-left network"></div>
 		<div class="service-right">
-			<h3>Network + Internet</h3>
+			<h3>Networking, Internet, Phones</h3>
 			<ul>
 				<li>NBN Transitions</li>
-				<li>Calling, hardware, infastructure</li>
-				<li>PTP</li>
+				<li>VOIP and telephony systems</li>
+				<li>Cameras and premises automation</li>
+				<li>Cabling, hardware, infrastructure</li>
+				<li>Point to point and outdoor wifi systems</li>
+				<li>Large property network plans and installations</li>
+				<li>Creative networking solutions for unique situations</li>
 			</ul>
 		</div>
 	</div>
 
 	<div data-aos="fade-up" class="service">
 
-		<div  class="service-left workflow"></div>
+		<div  class="service-left hardware"></div>
 		<div class="service-right">
-			<h3>Workflow</h3>
+			<h3>Computers, Office equipment</h3>
 			<ul>
-				<li>Gsuite</li>
-				<li>Cloud Data</li>
+				<li>POS, Shop and office fitouts</li>
+				<li>Streamlined workflow design and advice</li>
+				<li>Advice and tuition</li>
+				<li>Installation and customisation</li>
+				<li>Full scale ongoing tech support solutions</li>
+				<li>Service and repair</li>
+				<li>Security apps and assistance</li>
+				<li>macOS, Windows, Linux, iOS, Android</li>
+			</ul>
+		</div>
+	</div>
+
+	<div data-aos="fade-up" class="service">
+
+		<div class="service-left workflow"></div>
+		<div class="service-right">
+			<h3>Email, Cloud storage and app specialists</h3>
+			<ul>
+				<li>G Suite</li>
+				<li>Cloud storage and backup</li>
 				<li>Business grade backups</li>
-				<li>POS</li>
-				<li>Productivity Apps</li>
-				<li>CRM/CMS/Industry platforms</li>
-				<li>EMS</li>
-				<li>Xero/Trello/Harvest</li>
-			</ul>
-		</div>
-	</div>
-
-	<div data-aos="fade-up" class="service">
-
-		<div class="service-left hardware"></div>
-		<div class="service-right">
-			<h3>Hardware + Software</h3>
-			<ul>
-				<li>Advice</li>
-				<li>Installation</li>
-				<li>Customisation</li>
-				<li>Managment & Maintenance</li>
-				<li>Infections</li>
-				<li>Servicing</li>
-				<li>Repair</li>
-				<li>All operating systems</li>
+				<li>POS and productivity Apps</li>
+				<li>Short term accommodation management systems</li>
+				<li>CRM/CMS/Industry platforms installation and maintenance</li>
+				<li>Online and cloud based apps and workflows</li>
 			</ul>
 		</div>
 	</div>
@@ -58,12 +61,13 @@
 
 		<div class="service-left code"></div>
 		<div class="service-right">
-			<h3>Web Services</h3>
+			<h3>Website and online presence management</h3>
 			<ul>
 				<li>Design and Development</li>
-				<li>Maintenance</li>
-				<li>Integrations</li>
-				<li>Renovations</li>
+				<li>Advice and tuition</li>
+				<li>Ongoing maintenance and management plans</li>
+				<li>Integrations, renovations and updates</li>
+				<li>Online presence integrations and guidance</li>
 			</ul>
 		</div>
 	</div>

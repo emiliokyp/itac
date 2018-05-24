@@ -68,11 +68,10 @@ $('.link-listener').on('click', function(e) {
 
 document.addEventListener('DOMContentLoaded', function(event) {
   var dataText = [
-    'Problem?',
-    'Solved. :)',
     'Top Notch Business Tech Support',
     'Real People, Real Connections',
-    'Real Support, Real Solutions'
+    'Real Support, Real Solutions',
+    'Problem?                Solved. :)'
   ];
 
   function typeWriter(text, i, fnCallback) {
