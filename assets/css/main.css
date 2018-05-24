@@ -3,6 +3,10 @@
   --main-color: #e83a30;
 }
 
+body {
+  max-width: 100%;
+}
+
 .sticky-contact {
   text-align: right;
   background-color: #333;
@@ -575,6 +579,9 @@
 .industry-section {
   padding-top: 100px;
   padding-bottom: 100px;
+  max-width: 90%;
+  margin: 0 auto;
+  overflow-x: hidden;
 }
 
 .industry-container {
@@ -731,6 +738,7 @@
 #pricing-table h1 {
   font-weight: 100;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 .price-container {
@@ -1040,6 +1048,8 @@
 
 .btn-case-studies {
   transition: 0.5s !important;
+  white-space: normal;
+  word-wrap: break-word;
 }
 
 
@@ -1221,7 +1231,7 @@
   .industry-container {
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    width: 90%;
   }
 
   .industry {
@@ -1286,6 +1296,10 @@
 }
 
 @media (max-width: 819px) {
+  .case {
+    width: 95%;
+  }
+
   .row-1 td,
   .row-2 td,
   .row-3 td,
