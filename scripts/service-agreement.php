@@ -43,6 +43,11 @@ if ($_POST) {
 			. '<strong>Service Level: </strong>' . $_POST['service_level'] . '<br><br>'
 			. 'Additional Fixed Price Services: ' . '<br>';
 
+
+		if (isset($_POST['nbn'])) {
+			$mail->Body .= '<strong>Assisted NBN Signup: </strong>' . '$349 per signup' . '<br>';
+		}
+
 		if (isset($_POST['website'])) {
 			$mail->Body .= '<strong>Website Maintenance: </strong>' . '$99 per website' . '<br>';
 		}
@@ -52,10 +57,18 @@ if ($_POST) {
 		}
 
 		if (isset($_POST['computer_service'])) {
-			$mail->Body .= '<strong>Computer Service</strong>: ' . '$199 per computer' . '<br>';
+			$mail->Body .= '<strong>Computer Service: </strong>' . '$199 per computer' . '<br>';
 		}
 
-		if (empty($_POST['website']) && empty($_POST['hotspot']) && empty($_POST['computer_service'])) {
+		if (isset($_POST['gsuite'])) {
+			$mail->Body .= '<strong>G Suite email system setup: </strong>' . '$24 for first user' . '<br>';
+		}
+
+		if (isset($_POST['anti_virus'])) {
+			$mail->Body .= '<strong>Anti-virus security protection: </strong>' . '$59 per workstation per year' . '<br>';
+		}
+
+		if (empty($_POST['nbn']) && empty($_POST['website']) && empty($_POST['hotspot']) && empty($_POST['computer_service']) && empty($_POST['gsuite']) && empty($_POST['anti_virus'])) {
 			$mail->Body .= 'No additonal services required <br>';
 		}
 

@@ -28,9 +28,12 @@ if (isset($_POST['id'])) {
     $email = $Firewall->getClean($_POST['email']);
     $birthday = $Firewall->getClean($_POST['birthday']);
     $service_level = $Firewall->getClean($_POST['service_level']);
+    $nbn = isset($_POST['nbn']) ? $Firewall->getClean($_POST['nbn']) : '0';
     $website = isset($_POST['website']) ? $Firewall->getClean($_POST['website']) : '0';
     $hotspot = isset($_POST['hotspot']) ? $Firewall->getClean($_POST['hotspot']) : '0';
     $computer_service = isset($_POST['computer_service']) ? $Firewall->getClean($_POST['computer_service']) : '0';
+    $gsuite = isset($_POST['gsuite']) ? $Firewall->getClean($_POST['gsuite']) : '0';
+    $anti_virus = isset($_POST['anti_virus']) ? $Firewall->getClean($_POST['anti_virus']) : '0';
 
     $form_signed_by = $Firewall->getClean($_POST['form_signed_by']);
 		$date_submitted = $Firewall->getClean($_POST['date_submitted']);
@@ -50,8 +53,11 @@ if (isset($_POST['id'])) {
 		email = '$email',
 		birthday = '$birthday',
 		service_level = '$service_level',
+    nbn = '$nbn',
 		website = '$website',
 		hotspot = '$hotspot',
+    gsuite = '$gsuite',
+    anti_virus = '$anti_virus',
 		computer_service = '$computer_service',
     form_signed_by = '$form_signed_by',
 		date_submitted = '$date_submitted'

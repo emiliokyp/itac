@@ -16,9 +16,12 @@ var birthday = client.birthday;
 
 var serviceLevel = client.service_level;
 
+var nbn = client.nbn;
 var website = client.website;
 var hotspot = client.hotspot;
 var computerService = client.computer_service;
+var gsuite = client.gsuite;
+var antiVirus = client.anti_virus;
 
 var agreementDate = client.agreement_date;
 var latestUpdate = client.latest_update;
@@ -127,11 +130,15 @@ switch (serviceLevel.toLowerCase()) {
     }
 }
 // Fixed price services
+nbn == "1" ? (document.querySelector('#nbn').checked = true) : false;
 website == "1" ? (document.querySelector('#website').checked = true) : false;
 hotspot == "1" ? (document.querySelector('#hotspot').checked = true) : false;
 computerService == "1"
   ? (document.querySelector('#computer_service').checked = true)
   : false;
+gsuite == "1" ? document.querySelector('#gsuite').checked = true : false;
+antiVirus == "1" ? document.querySelector('#anti_virus').checked = true : false;
+
 
 // Read only section
 

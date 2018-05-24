@@ -28,9 +28,12 @@ if (isset($_POST['update-or-add'])) {
   $email = $Firewall->getClean($_POST['email']);
   $birthday = $Firewall->getClean($_POST['birthday']);
   $service_level = $Firewall->getClean($_POST['service_level']);
+  $nbn = isset($_POST['nbn']) ? $Firewall->getClean($_POST['nbn']) : '0';
   $website = isset($_POST['website']) ? $Firewall->getClean($_POST['website']) : '0';
   $hotspot = isset($_POST['hotspot']) ? $Firewall->getClean($_POST['hotspot']) : '0';
   $computer_service = isset($_POST['computer_service']) ? $Firewall->getClean($_POST['computer_service']) : '0';
+  $gsuite = isset($_POST['gsuite']) ? $Firewall->getClean($_POST['gsuite']) : '0';
+  $anti_virus = isset($_POST['anti_virus']) ? $Firewall->getClean($_POST['anti_virus']) : '0';
 
   $agreement_date = $Firewall->getClean($_POST['agreement_date']);
   $latest_update = $Firewall->getClean($_POST['latest_update']);
@@ -60,9 +63,12 @@ if (isset($_POST['update-or-add']) && isset($_POST['id'])) {
 		email = '$email',
 		birthday = '$birthday',
 		service_level = '$service_level',
+    nbn = '$nbn',
 		website = '$website',
 		hotspot = '$hotspot',
 		computer_service = '$computer_service',
+    gsuite = '$gsuite',
+    anti_virus = '$anti_virus',
     agreement_date = '$agreement_date',
     latest_update = '$latest_update',
     minimum_term = '$minimum_term',
@@ -88,9 +94,9 @@ if (isset($_POST['update-or-add']) && !isset($_POST['id'])) {
 }
   $id = gen_uuid();
   $new_client = $conn->prepare("INSERT INTO Clients (id, business_name, business_phone, business_email, business_address, business_billing, first_name, middle_name, last_name,
-  phone, email, birthday, service_level, website, hotspot, computer_service, agreement_date, latest_update, minimum_term, monthly_rate, hourly_rate, retainer_recharge, notes, travel_rate, after_hours)
+  phone, email, birthday, service_level, nbn, website, hotspot, computer_service, gsuite, anti_virus, agreement_date, latest_update, minimum_term, monthly_rate, hourly_rate, retainer_recharge, notes, travel_rate, after_hours)
   VALUES ('$id','$business_name', '$business_phone', '$business_email', '$business_address', '$business_billing', '$first_name', '$middle_name',
-  '$last_name', '$phone', '$email', '$birthday', '$service_level', '$website', '$hotspot', '$computer_service', '$agreement_date',
+  '$last_name', '$phone', '$email', '$birthday', '$service_level', '$nbn', '$website', '$hotspot', '$computer_service', '$gsuite', '$anti_virus', '$agreement_date',
   '$latest_update', '$minimum_term', '$monthly_rate', '$hourly_rate', '$retainer_recharge', '$notes', '$travel_rate', '$after_hours')");
   $new_client->execute();
   // $id = $conn->lastinsertid();
