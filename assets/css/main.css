@@ -38,6 +38,21 @@
   margin-top: 25px;
 }
 
+.envelope {
+  width: 16px;
+  vertical-align: middle;
+}
+
+.phone-icon {
+  width: 16px;
+  vertical-align: middle;
+}
+
+.location-icon {
+  width: 16px;
+  vertical-align: middle;
+}
+
 #logo {
   width: 250px;
   transition: 0.3s;
