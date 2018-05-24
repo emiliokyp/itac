@@ -20,9 +20,7 @@
 
 </div>
 
-<div class="map">
-	<iframe src="https://snazzymaps.com/embed/49854" width="100%" height="600px" style="border:none;"></iframe>
-</div>
+
 
 
 </section>
