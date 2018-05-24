@@ -20,7 +20,6 @@
 			</tr>
 		</table>
 		<div>
-			<button onclick="Calendly.showPopupWidget('https://calendly.com/itactechnology');return false;" class="sign-up">Book a session</button>
 			<button  onclick="window.location.href='/pricing'" class="learn-more-pricing">Learn more</button>
 		</div>
 	</div>
@@ -44,7 +43,6 @@
 				</tr>
 		</table>
 		<div>
-			<button onclick="Calendly.showPopupWidget('https://calendly.com/itactechnology');return false;" class="sign-up">Book a session</button>
 			<button  onclick="window.location.href='/pricing'" class="learn-more-pricing">Learn more</button>
 		</div>
 	</div>
@@ -67,7 +65,6 @@
 			</tr>
 			</table>
 		<div>
-			<button onclick="Calendly.showPopupWidget('https://calendly.com/itactechnology');return false;" class="sign-up">Book a session</button>
 			<button  onclick="window.location.href='/pricing'" class="learn-more-pricing">Learn more</button>
 		</div>
 	</div>

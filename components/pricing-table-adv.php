@@ -48,7 +48,7 @@
 		</table>
 		<div class="button-container">
 			<button class="sign-up" onclick="Calendly.showPopupWidget('https://calendly.com/itactechnology');return false;">Book a session</button>
-			<button type="button" class="learn-more-pricing" data-toggle="modal" data-target="#exampleModal">Ask us a question</button>
+			<button type="button" class="question-pricing" data-toggle="modal" data-target="#exampleModal">Ask us a question</button>
 		</div>
 	</div>
 
@@ -100,7 +100,7 @@
 				</table>
 		<div class="button-container">
 			<button class="sign-up" onclick="Calendly.showPopupWidget('https://calendly.com/itactechnology');return false;">Book a session</button>
-			<button type="button" class="learn-more-pricing" data-toggle="modal" data-target="#exampleModal">Ask us a question</button>
+			<button type="button" class="question-pricing" data-toggle="modal" data-target="#exampleModal">Ask us a question</button>
 		</div>
 	</div>
 	<div class="price-box">
@@ -151,12 +151,14 @@ Be quick, limited places available!
 		</table>
 		<div class="button-container">
 			<button class="sign-up" onclick="Calendly.showPopupWidget('https://calendly.com/itactechnology');return false;">Book a session</button>
-			<button type="button" class="learn-more-pricing" data-toggle="modal" data-target="#exampleModal">Ask us a question</button>
+			<button type="button" class="question-pricing" data-toggle="modal" data-target="#exampleModal">Ask us a question</button>
 		</div>
 	</div>
 	</div>
-	<span style="font-size: 10px; text-align: left; font-weight: 200; margin-bottom: 20px; width: 80%; text-align: center;" class="disclaimer">All prices include GST.  Platinum partnership  minimum term 12 months. Emergency service outside of ITAC business hours is available and billed at double your standard hourly rate. 
+	<span style="font-size: 10px; text-align: left; font-weight: 200; margin-bottom: 20px; width: 80%; text-align: center;" class="disclaimer">All prices include GST.  Platinum partnership  minimum term 12 months. Emergency service outside of ITAC business hours is available and billed at double your standard hourly rate.
 *It is a condition of the prepaid retainer that a pre-authorised payment method is setup via our secure online payment system. When 30 minutes or less remains in retainer, you will be automatically billed for the next block of hours.
 </span>
 	<span style="width: 80%; text-align: center;">Referral discounts and price breaks available. Contact us to find out how to qualify.</span>
 </section>
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script defer src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>

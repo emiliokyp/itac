@@ -18,7 +18,7 @@
 			<li class="problem"><strong>Problem</strong> - in the 14 plus years of ownership, they’ve never been able to provide consistent Internet connection to each guest room and receive constant complaints</li>
 			<li class="solution"><strong>Solution</strong> - within 1 hour, ITAC surveyed the premises, located existing wiring that could be repurposed to carry network data and installed dedicated access points to each room wired back to a central comms cabinet. As a random bonus, we also leveraged our local network of contacts and arranged a plumber to redo their guttering!</li>
 		</ul>
-		<button type="button" class="btn btn-primary btn-case-studies" style="background-color: var(--main-color); border: none;" onclick="window.location.href='/pricing'" name="button">Sound like you?</button>
+		<button type="button" class="btn btn-primary btn-case-studies" style="background-color: var(--main-color); border: none;" onclick="window.location.href='/pricing'" name="button">Sound like you? Learn more</button>
 	</div>
 
 	<div id="retail" data-aos="fade-left" class="case">
@@ -39,7 +39,7 @@
 			<li><strong>Problem</strong> - being so busy with he day to day running of the business, the website maintenance and updates get neglected</li>
 			<li><strong>Solution</strong> - we handle all website maintenance tasks on behalf of the client through a monthly website management agreement. Website is updated, secure and current whilst the client can get on with the more important aspects of running her business</li>
 		</ul>
-			<button type="button" class="btn btn-primary btn-case-studies" style="background-color: var(--main-color); border: none;" onclick="window.location.href='/pricing'" name="button">Sound like you?</button>
+			<button type="button" class="btn btn-primary btn-case-studies" style="background-color: var(--main-color); border: none;" onclick="window.location.href='/pricing'" name="button">Sound like you? Learn more</button>
 	</div>
 
 	<div id="farming" data-aos="fade-right" class="case">
@@ -55,7 +55,7 @@
 		<li><strong>Problem</strong> - monitoring livestock and water levels on remote properties requires time, fuel and money to send a worker long distances for a simple task</li>
 		<li><strong>Solution</strong> - using solar powered, 4G Internet connected, high-definition time lapse cameras, we allow the farmer to log in to a dashboard and remotely view all his grazing properties direct from his phone or computer in the comfort of the office</li>
 	</ul>
-		<button type="button" class="btn btn-primary btn-case-studies" style="background-color: var(--main-color); border: none;" onclick="window.location.href='/pricing'" name="button">Sound like you?</button>
+		<button type="button" class="btn btn-primary btn-case-studies" style="background-color: var(--main-color); border: none;" onclick="window.location.href='/pricing'" name="button">Sound like you? Learn more</button>
 	</div>
 
 </div>
