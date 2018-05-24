@@ -28,11 +28,9 @@
 	<script src="dependencies/parallax.min.js"></script>
 	<script src="assets/js/main.js"></script>
 	<script src='https://www.google.com/recaptcha/api.js'></script>
-	 <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-	 <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+	<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+	<script defer src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
 
-
-
-	</body>
+</body>
 
 </html>

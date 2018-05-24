@@ -1,7 +1,7 @@
   <?php require './database/client-view.php'; ?>
 
 	<section class="sign-up-container">
-	<h1><img style="width: 50px; padding-bottom: 10px; margin-right: 15px;" src="https://s3-ap-southeast-2.amazonaws.com/itac.technology/meerkat.png" alt="">Welcome to the clan! :)</h1>
+	<h1><img style="width: 50px; padding-bottom: 10px; margin-right: 15px;" src="https://s3-ap-southeast-2.amazonaws.com/itac.technology/Web+Assets/meerkat.png" alt="">Welcome to the clan! :)</h1>
 		<form action="scripts/service-agreement.php" method="post" id="sign-up-form">
 		<div class="form-group">
    	 			<label for="business_name">Business Name</label>
