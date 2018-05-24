@@ -173,7 +173,7 @@ body {
   align-items: center;
   flex-direction: column;
   margin: 0 auto;
-  height: 100vh;
+  height: 70vh;
 }
 
 #hero-btn {
@@ -288,8 +288,10 @@ body {
   width: 150px !important;
 }
 
+
 .service-right {
   padding: 20px 0 0 20px;
+  width: 70%;
 }
 
 .services h1 {
