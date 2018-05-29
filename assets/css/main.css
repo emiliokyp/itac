@@ -1277,9 +1277,7 @@ body {
     width: 80%;
   }
 
-  .service {
-    margin-right: 0;
-  }
+
 
   .service li {
     font-size: 14px;
@@ -1326,9 +1324,19 @@ body {
     flex-direction: column;
   }
 
+  .service-left {
+    width: 100px !important;
+    height: 100%;
+  }
+
+  .services-container div {
+    height: auto !important;
+  }
+
+
   .service-image {
     padding: 20px;
-    width: 100%;
+    width: 50px;
     border-bottom-left-radius: 0;
     border-top-right-radius: 4px;
   }

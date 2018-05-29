@@ -50,7 +50,7 @@
 	<li>Business grade backups</li>
 	<li>POS and productivity apps</li>
 	<li>Accommodation provider management systems</li>
-	<li>CRM/CMS/Industry platforms installation and maintenance</li>
+	<li>- CRM/CMS/Industry platforms installation and maintenance</li>
 </ul>
 		</div>
 	</div>
