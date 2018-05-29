@@ -22,6 +22,7 @@
 	<link  rel="stylesheet" href="dependencies/owl.carousel.min.css">
 	<link rel="stylesheet" href="dependencies/owl.theme.default.min.css">
 	<script src="dependencies/owl.carousel.min.js"></script>
+	<script src="dependencies/back-to-top.js"></script>
 </head>
 <body>
 	<!-- Google Tag Manager (noscript) -->

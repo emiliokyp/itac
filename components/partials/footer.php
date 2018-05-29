@@ -28,7 +28,6 @@
 	crossorigin="anonymous"></script>
 	<script src="assets/js/main.js"></script>
 	<script src='https://www.google.com/recaptcha/api.js'></script>
-	
 
 </body>
 

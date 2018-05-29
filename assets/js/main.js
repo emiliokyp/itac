@@ -141,3 +141,9 @@ form.addEventListener('submit', function(e) {
     alert('Please check the recaptcha');
   }
 });
+
+addBackToTop({
+  diameter: 56,
+  backgroundColor: 'var(--main-color)',
+  textColor: '#fff'
+});
