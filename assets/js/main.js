@@ -1,4 +1,3 @@
-
 // init page animations
 AOS.init({
   once: true
@@ -133,8 +132,6 @@ $(document).ready(function() {
     }
   });
 });
-
-
 
 // google recaptcha validation check
 var form = document.querySelector('#contact-form');

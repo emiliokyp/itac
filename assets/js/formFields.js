@@ -89,56 +89,59 @@ businessBilling
 
 // Personal form inputs
 // Full name, only taken from URL if both variables are present
-firstName ? document.querySelector('#first_name').value = firstName : false;
-middleName ? document.querySelector('#middle_name').value = middleName : false;
-lastName ? document.querySelector('#last_name').value = lastName : false;
+firstName ? (document.querySelector('#first_name').value = firstName) : false;
+middleName
+  ? (document.querySelector('#middle_name').value = middleName)
+  : false;
+lastName ? (document.querySelector('#last_name').value = lastName) : false;
 phone ? (document.querySelector('#phone').value = phone) : false;
 email ? (document.querySelector('#email').value = email) : false;
 birthday ? (document.querySelector('#birthday').value = birthday) : false;
 
 // Service level radio buttons
 if (window.location.pathname.toLowerCase() === '/service-agreement') {
-switch (serviceLevel.toLowerCase()) {
-  case 'platnium partnership':
-    document.querySelector('#platnium').checked = true;
-    $('input[name=service_level]:not(:checked)').attr('disabled', true);
-    break;
-  case 'prepaid retainer':
-    document.querySelector('#prepaid').checked = true;
-    $('input[name=service_level]:not(:checked)').attr('disabled', true);
-    break;
-  case 'casual':
-    document.querySelector('#casual').checked = true;
-    $('input[name=service_level]:not(:checked)').attr('disabled', true);
-    break;
-  default:
-    break;
+  switch (serviceLevel.toLowerCase()) {
+    case 'platnium partnership':
+      document.querySelector('#platnium').checked = true;
+      $('input[name=service_level]:not(:checked)').attr('disabled', true);
+      break;
+    case 'prepaid retainer':
+      document.querySelector('#prepaid').checked = true;
+      $('input[name=service_level]:not(:checked)').attr('disabled', true);
+      break;
+    case 'casual':
+      document.querySelector('#casual').checked = true;
+      $('input[name=service_level]:not(:checked)').attr('disabled', true);
+      break;
+    default:
+      break;
   }
 } else {
-    switch (serviceLevel.toLowerCase()) {
-      case 'platnium partnership':
-        document.querySelector('#platnium').checked = true;
-        break;
-      case 'prepaid retainer':
-        document.querySelector('#prepaid').checked = true;
-        break;
-      case 'casual':
-        document.querySelector('#casual').checked = true;
-        break;
-      default:
-        break;
-    }
+  switch (serviceLevel.toLowerCase()) {
+    case 'platnium partnership':
+      document.querySelector('#platnium').checked = true;
+      break;
+    case 'prepaid retainer':
+      document.querySelector('#prepaid').checked = true;
+      break;
+    case 'casual':
+      document.querySelector('#casual').checked = true;
+      break;
+    default:
+      break;
+  }
 }
 // Fixed price services
-nbn == "1" ? (document.querySelector('#nbn').checked = true) : false;
-website == "1" ? (document.querySelector('#website').checked = true) : false;
-hotspot == "1" ? (document.querySelector('#hotspot').checked = true) : false;
-computerService == "1"
+nbn == '1' ? (document.querySelector('#nbn').checked = true) : false;
+website == '1' ? (document.querySelector('#website').checked = true) : false;
+hotspot == '1' ? (document.querySelector('#hotspot').checked = true) : false;
+computerService == '1'
   ? (document.querySelector('#computer_service').checked = true)
   : false;
-gsuite == "1" ? document.querySelector('#gsuite').checked = true : false;
-antiVirus == "1" ? document.querySelector('#anti_virus').checked = true : false;
-
+gsuite == '1' ? (document.querySelector('#gsuite').checked = true) : false;
+antiVirus == '1'
+  ? (document.querySelector('#anti_virus').checked = true)
+  : false;
 
 // Read only section
 

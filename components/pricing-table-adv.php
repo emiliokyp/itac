@@ -47,7 +47,7 @@
 			</tr>
 		</table>
 		<div class="button-container">
-			<button class="sign-up" onclick="Calendly.showPopupWidget('https://calendly.com/itactechnology');return false;">Book a session</button>
+			<button class="sign-up" onclick="Calendly.showPopupWidget('https://calendly.com/itactechnology');return false;">Book your first session now</button>
 			<button type="button" class="question-pricing" data-toggle="modal" data-target="#exampleModal">Ask us a question</button>
 		</div>
 	</div>
@@ -99,7 +99,7 @@
 				</tr>
 				</table>
 		<div class="button-container">
-			<button class="sign-up" onclick="Calendly.showPopupWidget('https://calendly.com/itactechnology');return false;">Book a session</button>
+			<button class="sign-up" onclick="Calendly.showPopupWidget('https://calendly.com/itactechnology');return false;">Book your first session now</button>
 			<button type="button" class="question-pricing" data-toggle="modal" data-target="#exampleModal">Ask us a question</button>
 		</div>
 	</div>
@@ -150,7 +150,7 @@ Be quick, limited places available!
 			</tr>
 		</table>
 		<div class="button-container">
-			<button class="sign-up" onclick="Calendly.showPopupWidget('https://calendly.com/itactechnology');return false;">Book a session</button>
+			<button class="sign-up" onclick="Calendly.showPopupWidget('https://calendly.com/itactechnology');return false;">Book your first session now</button>
 			<button type="button" class="question-pricing" data-toggle="modal" data-target="#exampleModal">Ask us a question</button>
 		</div>
 	</div>

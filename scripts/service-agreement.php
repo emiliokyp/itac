@@ -16,7 +16,7 @@ if ($_POST) {
 
 	try {
 	//Server settings                          		// Enable verbose debug output
-	include('mail-server-config.php');
+		include('mail-server-config.php');
 
 	//Recipients
 		$mail->setFrom('hello@itac.technology', 'Hello! itac.technology');
@@ -35,7 +35,7 @@ if ($_POST) {
 			. '<strong>First Name: </strong>' . $_POST['first_name'] . '<br>'
 			. '<strong>Middle Name: </strong>' . $_POST['middle_name'] . '<br>'
 			. '<strong>Last Name: </strong>' . $_POST['last_name'] . '<br>'
- 			. '<strong>Phone: </strong>' . $_POST['phone'] . '<br>'
+			. '<strong>Phone: </strong>' . $_POST['phone'] . '<br>'
 			. '<strong>Email: </strong>' . $_POST['email'] . '<br>'
 			. '<strong>Birthday: </strong>' . $_POST['birthday'] . '<br><br>'
 			. 'If something is not quite right, please let us know. <br>______________________________________________________<br><br>'
@@ -81,12 +81,12 @@ if ($_POST) {
 			. '<strong>Notes: </strong>' . $_POST['notes'] . '<br>'
 			. '<strong>Travel Rate: </strong>' . $_POST['travel_rate'] . '<br>'
 			. '<strong>After Hours Rate: </strong>' . $_POST['after_hours'] . '<br>______________________________________________________<br><br>'
-			.	'[YES] - Have read, understood and agree to engage itac.technology as per this document and have read and understand the pricing and service level information. <br>'
+			. '[YES] - Have read, understood and agree to engage itac.technology as per this document and have read and understand the pricing and service level information. <br>'
 			. '[YES] - Agree to contact itac.technology within 7 days if changes need to be made to this agreement. <br>'
 			. '[YES] - Agree to setup a pre-authorised payment method if my service level requires it. <br>'
 			. '<strong>Form Signatory: </strong>' . $_POST['form_signed_by'] . '<br>'
 			. '<strong>Date Submitted: </strong>' . $_POST['date_submitted'] . '<br>'
-			.	'<br><br>Please contact us within 7 days to amend this agreement'
+			. '<br><br>Please contact us within 7 days to amend this agreement'
 			. '<br><br><strong>Thanks for being part of the itac.technology clan! <img style="width: 20px;" width="20px" src="https://s3-ap-southeast-2.amazonaws.com/itac.technology/Web+Assets/meerkat.png"></strong><br><br>';
 
 		$mail->send();

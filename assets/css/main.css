@@ -244,7 +244,7 @@ body {
   font-size: 12px;
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: #ffffff;
+  background-color: #f9f9f9;
 }
 
 .services-container {
@@ -287,7 +287,6 @@ body {
 .network {
   width: 150px !important;
 }
-
 
 .service-right {
   padding: 20px 0 0 20px;
@@ -536,7 +535,7 @@ body {
   padding-left: 10%;
   padding-right: 10%;
   margin: 0 auto;
-  background-color: #f9f9f9;
+  background-color: white;
 }
 
 .brands h2 {
@@ -582,6 +581,10 @@ body {
 
 /* industry */
 
+#industry {
+  background-color: #f9f9f9;
+}
+
 .industry-section h1 {
   font-weight: 100;
   text-align: center;
@@ -591,7 +594,6 @@ body {
 .industry-section {
   padding-top: 100px;
   padding-bottom: 100px;
-  max-width: 90%;
   margin: 0 auto;
 }
 
@@ -609,6 +611,7 @@ body {
 }
 
 .industry {
+  background-color: white;
   width: 60%;
   min-width: 400px;
   padding: 40px;
@@ -975,7 +978,7 @@ body {
 
 .contact {
   padding-top: 100px;
-  background-color: #f9f9f9;
+  background-color: white;
   padding-bottom: 100px;
 }
 
@@ -1079,7 +1082,6 @@ body {
   white-space: normal;
   word-wrap: break-word;
 }
-
 
 .btn-case-studies:hover {
   transform: translateX(10px);
@@ -1324,7 +1326,6 @@ body {
 }
 
 @media (max-width: 819px) {
-
   .fixed-price-service {
     width: 95% !important;
   }

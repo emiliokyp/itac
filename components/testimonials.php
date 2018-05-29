@@ -3,7 +3,7 @@
 	<div class="title-container">
 		<h1>Happy Customers :)</h1>
 	</div>
-	<section data-aos="fade-up" class="testimonials owl-carousel">
+	<section data-aos="fade-up" class="testimonials owl-carousel owl-theme">
 
 		<div class="item testimonial">
 			<div class="testimonial-logo" id="john_karen"></div>
@@ -35,12 +35,15 @@
 
 	</section>
 
+
 	<script>
 		$('.testimonials').owlCarousel({
+			dots: true,
 			loop:true,
 			margin:20,
 			autoplay: true,
-    nav:false,
+			autoplayTimeout: 10000,
+			autoplayHoverPause: true,
     responsive:{
 			0:{
 				items:1
