@@ -45,7 +45,7 @@ if ($_POST) {
 
 
 		if (isset($_POST['nbn'])) {
-			$mail->Body .= '<strong>Assisted NBN Signup: </strong>' . '$349 per signup' . '<br>';
+			$mail->Body .= '<strong>Assisted NBN Signup: </strong>' . '$299 per signup' . '<br>';
 		}
 
 		if (isset($_POST['website'])) {
@@ -61,7 +61,7 @@ if ($_POST) {
 		}
 
 		if (isset($_POST['gsuite'])) {
-			$mail->Body .= '<strong>G Suite email system setup: </strong>' . '$24 for first user' . '<br>';
+			$mail->Body .= '<strong>G Suite email system setup: </strong>' . '$249 for first user, any additional users $49' . '<br>';
 		}
 
 		if (isset($_POST['anti_virus'])) {

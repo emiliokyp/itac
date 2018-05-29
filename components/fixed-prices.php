@@ -5,7 +5,7 @@
 	<div data-aos="fade-left" class="fixed-price-service">
 		<div class="service-image">
 			<h2>Fixed price assisted NBN signup</h2>
-			<p>$349 per sign up</p>
+			<p>$299 per sign up</p>
 		</div>
 		<table class="table table-striped">
 			<tr>
@@ -115,7 +115,7 @@
 <div data-aos="fade-left" class="fixed-price-service">
 	<div class="service-image">
 		<h2>Fixed price G Suite email system setup</h2>
-		<p>$24 for first user</p>
+		<p>$249 for first user, any additional users $49</p>
 	</div>
 	<table class="table table-striped">
 		<tr>

@@ -143,7 +143,11 @@ form.addEventListener('submit', function(e) {
 });
 
 addBackToTop({
-  diameter: 56,
+  diameter: 48,
   backgroundColor: 'var(--main-color)',
   textColor: '#fff'
+});
+
+$(function() {
+  $('[data-toggle="tooltip"]').tooltip();
 });

@@ -75,7 +75,7 @@
 );" style="background-color: none; border: none;" type="button" data-toggle="tooltip" data-placement="top" title="What are these? Additional technology services at a fixed price! You’ll find full details for each service at itac.technology/pricing, click to view page"><i class="fas fa-info-circle"></i></button></label>
 <div class="custom-control custom-checkbox">
   <input value="1" type="checkbox" id="nbn" name="nbn" class="custom-control-input">
-  <label class="custom-control-label" for="nbn">Assisted NBN Signup | $349 per signup</label>
+  <label class="custom-control-label" for="nbn">Assisted NBN Signup | $299 per signup</label>
 </div>
   <div class="custom-control custom-checkbox">
       <input value="1" type="checkbox" id="website" name="website" class="custom-control-input">
@@ -154,8 +154,9 @@
   <button type="submit" class="btn sign-up-submit">Submit</button>
   <?php if (isset($_GET['id'])) {
     ?>
-    <input type="hidden" name="id" value="<?php echo !empty($_GET['id']) ? htmlspecialchars($_GET['id']) : NULL; ?>" />
+    <input type="hidden" name="id" value="<?php echo !empty($_GET['id']) ? htmlspecialchars($_GET['id']) : null; ?>" />
     <?php
+
   }
   ?>
   <input type="hidden" name="update-or-add" value="1">

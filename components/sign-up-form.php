@@ -44,7 +44,8 @@
     			<input name="email" type="email" class="form-control" id="email" required>
   		</div>
 			<div style="margin-bottom: 50px;" class="form-group">
-   	 			<label for="birthday">Your Birthday 	<button style="background-color: none; border: none;" type="button" data-toggle="tooltip" data-placement="top" title="Why? two reasons, (1) in the event we need to use your details as verification to access an account and (2) so we can wish you happy birthday, of course!"><i class="fas fa-info-circle"></i></button></label>
+   	 			<label for="birthday">Your Birthday 	<button style="background-color: none; font-size: 12px; border: none; color: black;" type="button" data-toggle="tooltip" data-placement="top" title="two reasons, (1) in the event we need to use your details as verification to access an account and (2) so we can wish you happy birthday, of course!">
+<svg width="5px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path d="M20 424.229h20V279.771H20c-11.046 0-20-8.954-20-20V212c0-11.046 8.954-20 20-20h112c11.046 0 20 8.954 20 20v212.229h20c11.046 0 20 8.954 20 20V492c0 11.046-8.954 20-20 20H20c-11.046 0-20-8.954-20-20v-47.771c0-11.046 8.954-20 20-20zM96 0C56.235 0 24 32.235 24 72s32.235 72 72 72 72-32.235 72-72S135.764 0 96 0z"/></svg></button></label>
     			<input name="birthday" type="text" class="form-control" id="birthday" placeholder="DD/MM/YYYY" required>
   		</div>
 
@@ -53,7 +54,7 @@
 		<label for="platnium">Service Level <button onclick="window.open(
   'https://itac.technology/pricing',
   '_blank'
-);" style="background-color: none; border: none;" type="button" data-toggle="tooltip" data-placement="top" title="What are these? Full details of our service level and pricing tiers are available at itac.technology/pricing, click to view page"><i class="fas fa-info-circle"></i></button></label>
+);" style="background-color: none; border: none;" type="button" data-toggle="tooltip" data-placement="top" title="What are these? Full details of our service level and pricing tiers are available at itac.technology/pricing, click to view page"><svg width="5px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path d="M20 424.229h20V279.771H20c-11.046 0-20-8.954-20-20V212c0-11.046 8.954-20 20-20h112c11.046 0 20 8.954 20 20v212.229h20c11.046 0 20 8.954 20 20V492c0 11.046-8.954 20-20 20H20c-11.046 0-20-8.954-20-20v-47.771c0-11.046 8.954-20 20-20zM96 0C56.235 0 24 32.235 24 72s32.235 72 72 72 72-32.235 72-72S135.764 0 96 0z"/></svg></button></label>
 			<div class="custom-control custom-radio">
   				<input value="Platnium Partnership" type="radio" id="platnium" name="service_level" class="custom-control-input" required>
   				<label class="custom-control-label" for="platnium">Platnium Partnership</label>
@@ -72,10 +73,10 @@
 		<label for="platnium">Fixed Price Services <button onclick="window.open(
   'https://itac.technology/pricing#fixed-prices',
   '_blank'
-);" style="background-color: none; border: none;" type="button" data-toggle="tooltip" data-placement="top" title="What are these? Additional technology services at a fixed price! You’ll find full details for each service at itac.technology/pricing, click to view page"><i class="fas fa-info-circle"></i></button></label>
+);" style="background-color: none; border: none;" type="button" data-toggle="tooltip" data-placement="top" title="What are these? Additional technology services at a fixed price! You’ll find full details for each service at itac.technology/pricing, click to view page"><svg width="5px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path d="M20 424.229h20V279.771H20c-11.046 0-20-8.954-20-20V212c0-11.046 8.954-20 20-20h112c11.046 0 20 8.954 20 20v212.229h20c11.046 0 20 8.954 20 20V492c0 11.046-8.954 20-20 20H20c-11.046 0-20-8.954-20-20v-47.771c0-11.046 8.954-20 20-20zM96 0C56.235 0 24 32.235 24 72s32.235 72 72 72 72-32.235 72-72S135.764 0 96 0z"/></svg></button></label>
     <div class="custom-control custom-checkbox">
       <input value="1" type="checkbox" id="nbn" name="nbn" class="custom-control-input">
-      <label class="custom-control-label" for="nbn">Assisted NBN Signup | $349 per signup</label>
+      <label class="custom-control-label" for="nbn">Assisted NBN Signup | $299 per signup</label>
     </div>
       <div class="custom-control custom-checkbox">
   				<input value="1" type="checkbox" id="website" name="website" class="custom-control-input">
@@ -91,7 +92,7 @@
 			</div>
       <div class="custom-control custom-checkbox">
         <input value="1" type="checkbox" id="gsuite" name="gsuite" class="custom-control-input">
-        <label class="custom-control-label" for="gsuite">G Suite email system setup | $24 for first user</label>
+        <label class="custom-control-label" for="gsuite">G Suite email system setup | $249 for first user, any additional users $49</label>
       </div>
       <div class="custom-control custom-checkbox"  style="margin-bottom: 50px;">
         <input value="1" type="checkbox" id="anti_virus" name="anti_virus" class="custom-control-input">
@@ -171,7 +172,14 @@
     <input required class="form-control" placeholder="Your Name" type="text" name="form_signed_by" id="form_signed_by">
 		<input required class="form-control" id="date_submitted" name="date_submitted" type="date">
 		<button type="submit" class="btn sign-up-submit">Submit</button>
-		<input type="hidden" name="id" value="<?php echo !empty($_GET['id']) ?htmlspecialchars($_GET['id']) :''; ?>" />
+		<input type="hidden" name="id" value="<?php echo !empty($_GET['id']) ? htmlspecialchars($_GET['id']) : ''; ?>" />
 		</form>
 	</section>
 <script src="assets/js/formFields.js"></script>
+
+
+<script>
+	$(function() {
+  $('[data-toggle="tooltip"]').tooltip();
+});
+</script>

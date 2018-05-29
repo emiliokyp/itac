@@ -45,14 +45,13 @@
 		<div class="service-right">
 			<h3>Email, Cloud storage and app specialists</h3>
 			<ul>
-				<li>G Suite</li>
-				<li>Cloud storage and backup</li>
-				<li>Business grade backups</li>
-				<li>POS and productivity Apps</li>
-				<li>Short term accommodation management systems</li>
-				<li>CRM/CMS/Industry platforms installation and maintenance</li>
-				<li>Online and cloud based apps and workflows</li>
-			</ul>
+	<li>Google G Suite cloud based email systems and apps</li>
+	<li>Online, cloud storage, backup, apps and workflows</li>
+	<li>Business grade backups</li>
+	<li>POS and productivity apps</li>
+	<li>Accommodation provider management systems</li>
+	<li>CRM/CMS/Industry platforms installation and maintenance</li>
+</ul>
 		</div>
 	</div>
 
