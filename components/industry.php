@@ -1,6 +1,6 @@
 
 	<section id="industry" class="industry-section">
-		<h2>Industry Solutions</h2>
+		<a style="text-decoration: none; color: inherit;" href="/industry-solutions"><h2>Industry Solutions</h2></a>
 		<div class="industry-container">
 			<div data-aos="fade-left" class="industry">
 				<h3>Solutions for accommodation providers</h3>
