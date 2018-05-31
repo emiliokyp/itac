@@ -8,5 +8,6 @@ require 'components/brands.php';
 require 'components/pricing-table.php';
 require 'components/contact.php';
 require 'components/about.php';
+require 'components/mailing-list.php';
 require './components/partials/footer.php'
 ?>
