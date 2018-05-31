@@ -39,6 +39,7 @@
 	<script>
 		$('.testimonials').owlCarousel({
 			dots: true,
+			dotsEach: true,
 			loop:true,
 			margin:20,
 			autoplay: true,

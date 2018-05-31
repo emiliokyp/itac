@@ -31,6 +31,9 @@ switch ($request_uri[0]) {
 	case '/admin':
 		require './views/database.view.php';
 		break;
+	case '/sitemap.xml':
+		require './sitemap.xml';
+		break;
 	default:
 		header('HTTP/1.0 404 Not Found');
 		require './views/404.php';
