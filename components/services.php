@@ -1,6 +1,6 @@
 <section id="services" class="services">
 
-<h1>How can we help?</h1>
+<h2>How can we help?</h2>
 
 <div class="services-container">
 

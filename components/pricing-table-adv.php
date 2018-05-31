@@ -1,5 +1,5 @@
 <section id="pricing-table">
-	<h1>Service Level and Pricing</h1>
+	<h2>Service Level and Pricing</h2>
 	<span class="price-tagline">We understand people. That’s why we offer three choices of tech support so you can have it your way. Rest assured, no matter which option you choose, you’ll still receive the same leading, local and loving it service and don’t worry, you’re always welcome to try out all the flavours then decide which one you like!</span>
 	<div data-aos="zoom-in" class="price-container">
 	<div class="price-box">

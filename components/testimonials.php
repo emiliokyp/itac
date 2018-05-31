@@ -1,7 +1,7 @@
 
 <div class="testimonials-container">
 	<div class="title-container">
-		<h1>Happy Customers :)</h1>
+		<h2>Happy Customers :)</h2>
 	</div>
 	<section data-aos="fade-up" class="testimonials owl-carousel owl-theme">
 

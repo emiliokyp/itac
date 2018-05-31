@@ -1,5 +1,5 @@
 	<section id="contact" class="contact">
-		<h1>Get in touch</h1>
+		<h2>Get in touch</h2>
 		<div class="form-container">
 			<form id="contact-form" method="post" action="scripts/email.php" name="contact">
 				<div class="form-group">

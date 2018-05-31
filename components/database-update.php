@@ -1,7 +1,7 @@
 <?php require './database/add-or-update-client.php'; ?>
 
 <section class="sign-up-container">
-<h1>Add or Update Client Record</h1>
+<h2>Add or Update Client Record</h2>
   <form action="scripts/add-or-update-client.php" method="post" id="sign-up-form">
   <div class="form-group">
         <label for="business_name">Business Name</label>

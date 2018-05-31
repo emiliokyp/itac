@@ -1,5 +1,5 @@
 <section  id="pricing-table">
-	<h1>Service Level and Pricing</h1>
+	<h2>Service Level and Pricing</h2>
 	<div class="price-container">
 	<div data-aos="fade-up" class="price-box">
 		<h3>Casual</h3>
