@@ -25,7 +25,8 @@
           <div class="form-group">
             <label  style="font-size: 14px;"  for="message-text" class="col-form-label">Message:</label>
             <textarea class="form-control" name="message" required id="message-text"></textarea>
-					</div>
+          </div>
+          <input type="checkbox" aria-hidden='true' style="position: absolute; left: -5000px;" name="anti_bot" value="" tabindex="-1">
 					<div style="padding-right: 0;" class="modal-footer">
        		 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         	<button type="submit" class="btn btn-primary" style="background-color: var(--main-color); border: none; outline: none;">Send message</button>

@@ -2,9 +2,11 @@
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
+
 require '../vendor/autoload.php';
 
-if ($_POST) {
+
+if ($_POST && !isset($_POST['anti_bot'])) {
 
 	$mail = new PHPMailer(true);
 
@@ -24,10 +26,10 @@ if ($_POST) {
 	$mail->isHTML(true);
 	$mail->Subject = 'Thanks for your enquiry';
 	$mail->Body = 'We will be in contact with you shortly <br><br>'
-	. '<strong>Name: </strong>' . $_POST['name'] . '<br>'
-	. '<strong>Email: </strong>' . $_POST['email'] . '<br>'
-	. '<strong>Phone: </strong>' . $_POST['phone'] . '<br>'
-	. '<strong>Message: </strong>' . $_POST['message'] . '<br>';
+		. '<strong>Name: </strong>' . $_POST['name'] . '<br>'
+		. '<strong>Email: </strong>' . $_POST['email'] . '<br>'
+		. '<strong>Phone: </strong>' . $_POST['phone'] . '<br>'
+		. '<strong>Message: </strong>' . $_POST['message'] . '<br>';
 
 	$mail->send();
 	header("Location: /success");

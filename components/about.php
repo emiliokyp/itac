@@ -5,10 +5,10 @@
 	<div class="about-left">
 		<h3>About us</h3>
 		<p>We take the time to understand you and ensure you are informed, confident and happy using your tech. No matter how good your technology is, if you and your team are not happy using it, it’s no good at all. We believe in forming strong working relationships with those we work with, grounded in a shared understanding of the technology at your disposal. That’s the itac.technology difference.</p>
-		<p>Established in 2009, with industry experience spanning over 25 years, Sam Hammond and the itac.technology team, based in Byron Bay, are your local, first point of contact for all things tech in your business. From simple computer repairs to office networking, Internet, POS and shop fit outs through to website management.<button type="button" class="btn-meerkat" data-toggle="tooltip" data-placement="top" title="Well, for starters, they're pretty cute! Meerkats are community focused, curious and observant of their surroundings. We at itac.technology strive to these values and more!">
-Why the meerkat?
-</button></p>
-		<i>Leading. Local. <strong>Loving it!</strong></i>
+		<p>Established in 2009, with industry experience spanning over 25 years, Sam Hammond and the itac.technology team, based in Byron Bay, are your local, first point of contact for all things tech in your business. From simple computer repairs to office networking, Internet, POS and shop fit outs through to website management.</p>
+		<i>Leading. Local. <strong>Loving it!</strong><button type="button" class="btn-meerkat" data-toggle="tooltip" data-placement="top" title="Why the meerkat? Well, for starters, they're pretty cute! Meerkats are community focused, curious and observant of their surroundings. We at itac.technology strive to these values and more! Also, a group of meerkats is called a clan :)">
+<img src="../favicon.ico" style="filter: invert(1); opacity: 0.5; margin-bottom: 5px;" width="16px"/>
+</button></i>
 	</div>
 	<div class="about-right">
 		<p>

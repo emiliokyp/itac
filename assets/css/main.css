@@ -471,7 +471,12 @@ h2 {
 }
 
 #ian {
-  background-color: #333;
+  background-image: url('../img/bluewater_logo.png');
+  background-size: 150px auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-y: 75px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 /* map */
@@ -1313,6 +1318,10 @@ h2 {
 
   #nav {
     margin-top: 0;
+  }
+
+  .service-image {
+    width: 100% !important;
   }
 
   .footer-links {
