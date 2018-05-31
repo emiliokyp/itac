@@ -5,6 +5,7 @@ include('firewall.php');
 $Firewall = new Firewall();
 
 
+
 if (isset($_GET['id'])) {
   $id = $Firewall->getClean($_GET['id']);
 	$sql = $conn->prepare("SELECT * FROM Clients WHERE id='$id'");

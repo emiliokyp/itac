@@ -1,8 +1,8 @@
 RewriteEngine On
 
 RewriteCond %{HTTPS} !on [OR]
-RewriteCond %{HTTP_HOST} ^www\.
-RewriteRule (.*) https://itac.technology/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^itac.technology
+RewriteRule (.*) https://www.itac.technology/$1 [R=301,L]
 
 RewriteBase /
 RewriteRule ^index\.php$ - [L]

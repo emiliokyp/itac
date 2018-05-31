@@ -1,7 +1,7 @@
 <?php
 
 
-if ($_SERVER['HTTP_HOST'] == 'itac.technology') {
+if ($_SERVER['HTTP_HOST'] == 'itac.technology' || $_SERVER['HTTP_HOST'] == 'www.itac.technology') {
 
 // PROD
 	$host = 'localhost';
