@@ -5,7 +5,6 @@
 <div class="services-container">
 
 	<div data-aos="fade-up" class="service">
-
 		<div  class="service-left network"></div>
 		<div class="service-right">
 			<h3>Networking, Internet, Phones</h3>

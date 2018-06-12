@@ -3,7 +3,7 @@
 <p>
 	Itac.technology removes the barriers to receiving top notch tech support from a real, local person. We believe in  transparent communication,  clarity in scope of service, the integrity of our team and the integrity of we choose to work with . We look forward to building a strong working relationship with you.
 </p>
-
+<p><strong>Our Service</strong> - Our time spent helping you by using our knowledge, skills and experience is our saleable commodity. As soon as we are engaged to save you time, heartache, stress, resources, confusion or money we will run our time tracking system and will accumulate billable time. We use a dedicated timing system to time by the minute, at our discretion.</p>
 <p>
 	<strong>Pricing and service levels</strong> - These terms of service support our service level and pricing information and any client specific service agreements.
 </p>
