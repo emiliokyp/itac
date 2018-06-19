@@ -1,6 +1,7 @@
 <?php 
 require './components/partials/header.php';
 require './components/hero.php';
+require 'components/cta-section.php';
 require 'components/services.php';
 require 'components/testimonials.php';
 require 'components/industry.php';
